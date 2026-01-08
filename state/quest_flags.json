@@ -8,13 +8,11 @@
     "bleak_falls_retrieved": false,
     "dragonstone_delivered": false,
     "whiterun_battle_started": true,
-    "whiterun_battle_complete": true,
-    "civil_war_joined": true,
-    "civil_war_side": "stormcloak",
-    "thalmor_evidence_found": true,
-    "thalmor_evidence_revealed": true,
-    "whiterun_flip_in_progress": false,
-    "ulfric_restraint_oath_sworn": true
+    "whiterun_battle_complete": false,
+    "civil_war_joined": false,
+    "civil_war_side": null,
+    "thalmor_evidence_found": false,
+    "thalmor_evidence_revealed": false
   },
   "faction_quest_flags": {
     "companions": {
@@ -29,14 +27,5 @@
     "dark_brotherhood": {
       "joined": false
     }
-  },
-  "whiterun_flags": {
-    "proventus_detained": true,
-    "cipius_detained": true,
-    "gatehouse_secured": true,
-    "thalmor_cell_exposed": true,
-    "sun_wax_eliminated": true,
-    "stablefire_prevented": true,
-    "sympathizer_sweep_pending": true
   }
 }

@@ -15,7 +15,6 @@ A structured outline of all campaign elements for quick navigation.
 
 ### Clocks & State
 - **[/clocks/skyrim_clocks.json](clocks/skyrim_clocks.json)** — Single source of truth for master, act, and faction clocks
-- **[/clocks/OSKERN_CLOCKS_GUIDE.md](clocks/OSKERN_CLOCKS_GUIDE.md)** — Oskern-specific clock definitions
 - **[/state/campaign_state.json](state/campaign_state.json)** — Hold control, major flags, party alignment, allies/enemies
 
 ---
@@ -73,7 +72,7 @@ A structured outline of all campaign elements for quick navigation.
 
 ### PCs
 - **/pcs/** — Player character sheets
-  - `OSKERN_GALEBORNE.md` — Oskern Galeborne (Ice Wolf of Falkreath)
+  - `PC_MAIN.md` — Active PC sheet (to be created in Session Zero)
   - `CHAR_TEMPLATE.md` — Template for new PCs
 
 ### Session Logs

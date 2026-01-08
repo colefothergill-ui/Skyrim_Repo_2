@@ -1,8 +1,8 @@
 {
   "meta": {
     "era": "4E 201",
-    "updated": "2026-01-06",
-    "notes": "Single source of truth for campaign clocks. Added Oskern personal/threat/goal clocks."
+    "updated": "2026-01-08",
+    "notes": "Session Zero start: all clocks reset to beginning state."
   },
   "master_clocks": {
     "civil_war_endgame": {
@@ -20,7 +20,7 @@
     "act_01_whiterun_outcome": {
       "current": 0,
       "max": 6,
-      "note": "Tracks Whiterun turning points."
+      "note": "Tracks Whiterun battle progression and outcome."
     },
     "act_02_fronts_shift": {
       "current": 0,
@@ -73,70 +73,14 @@
       "current": 0,
       "max": 6,
       "note": "Side Plot C — covert operations escalating into Act V."
-    },
-    "stormcloak_trust": {
-      "current": 2,
-      "max": 4,
-      "note": "Oskern standing with the Sons of Skyrim. Ticks on missions/sacrifices for the cause. MAX = promotion + war council access + call-in aid 1/session."
-    },
-    "silver_hand_retaliation": {
-      "current": 3,
-      "max": 6,
-      "note": "Threat clock for Silver Hand counter-hunts aimed at Oskern. Ticks as they learn, mobilize, and set traps. MAX = major strike (ambush/raid/exposure)."
-    },
-    "way_of_the_voice_offshoot": {
-      "current": 2,
-      "max": 4,
-      "note": "Custom faction — Greybeards-adjacent splinter. Ticks on voice-lore, restraint, mentorship. MAX = unlock mentor/word/technique upgrade."
     }
   },
-  "personal_clocks": {
-    "hircines_call_oskern": {
-      "current": 2,
-      "max": 6,
-      "note": "How deeply Oskern is claimed by the Hunt. Ticks on rites, trophies, compels accepted. MAX = Hircine escalation/trial + major upgrade."
-    },
-    "beast_mastery_oskern": {
-      "current": 0,
-      "max": 4,
-      "note": "Control during/after transformation. Ticks on resisting frenzy and maintaining intent. MAX = first-shift control becomes reliable."
-    },
-    "unleashed_pup": {
-      "current": 1,
-      "max": 4,
-      "note": "The infected Silver Hand survivor ripple. Ticks as they survive/change/spread. MAX = named NPC + big complication."
-    },
-    "path_to_hircines_champion": {
-      "current": 1,
-      "max": 6,
-      "note": "Long-arc: become Hircine’s Champion. MAX = mantle offered (with price)."
-    },
-    "liberate_falkreath_hold": {
-      "current": 2,
-      "max": 6,
-      "note": "Long-arc: free Falkreath from corruption/Imperial leverage. MAX = hold flips / Siddgeir falls."
-    },
-    "claim_the_jarlship_falkreath": {
-      "current": 0,
-      "max": 6,
-      "note": "Long-arc ambition: take the Jarlship. MAX = you can credibly seize rule and endure fallout."
-    }
-  },
+  "personal_clocks": {},
   "clocks": {
-    "civil_war_whiterun_flip": {
-      "current": 7,
-      "max": 8,
-      "note": "Balgruuf aligned conditionally; gatehouse secured; final sweep pending. Ulfric acknowledged Eltric as Champion; purge held to detentions."
-    },
-    "thalmor_whiterun_sabotage": {
-      "current": 7,
-      "max": 8,
-      "note": "Sun-Wax eliminated; stablefire prevented; network exposed but not fully cleared. Satchel opened; ring/token recovered; pivot tailed—capture imminent."
-    },
-    "companions_respect": {
-      "current": 3,
+    "dragonbreak_reality_frayed": {
+      "current": 0,
       "max": 4,
-      "note": "Aela/Farkas aided in defense of Whiterun; Eltric issued commands under pressure. Evidence secured; hunt pivot underway."
+      "note": "Track Dragonbreak recoil and reality fraying events."
     }
   }
 }
