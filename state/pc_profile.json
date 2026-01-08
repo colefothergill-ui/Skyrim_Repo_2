@@ -4,7 +4,7 @@
     "updated": "2026-01-08",
     "patch": "Reset to Session Zero"
   },
-  "created": false,
+  "created": true,
   "active_pc_file": "pcs/PC_MAIN.md",
   "required_fields": [
     "name",
