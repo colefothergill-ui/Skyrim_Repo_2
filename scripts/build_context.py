@@ -1,4 +1,4 @@
-"""
+﻿"""
 build_context.py
 Print a GM Context Pack to stdout (read-only).
 
@@ -14,6 +14,13 @@ Usage:
 """
 
 from __future__ import annotations
+
+import sys
+try:
+    sys.stdout.reconfigure(errors="replace")
+    sys.stderr.reconfigure(errors="replace")
+except Exception:
+    pass
 import json
 from pathlib import Path
 from typing import Any, Optional
@@ -84,14 +91,14 @@ def main() -> None:
     created = bool(pc.get("created", False))
     print("\n## Session Zero Gate")
     if not created:
-        print("❗ STOP — PC not created yet.")
+        print("â— STOP â€” PC not created yet.")
         req = (pc.get("required_fields") or defaults.get("pc_creation_gate", {}).get("required_fields") or [])
         if req:
             print("- Required fields:", ", ".join(req))
         print("- See: tools/SESSION_ZERO_GATE.md")
         print("- Active PC sheet:", pc.get("active_pc_file", "pcs/PC_MAIN.md"))
     else:
-        print("✅ PC created.")
+        print("âœ… PC created.")
         pcdata = pc.get("pc", {})
         if pcdata:
             print(f"- Name: {pcdata.get('name')}")

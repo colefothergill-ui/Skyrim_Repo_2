@@ -1,4 +1,4 @@
-"""
+﻿"""
 on_track.py
 Read-only alignment check: are we following the module rails?
 
@@ -11,6 +11,13 @@ Outputs:
 """
 
 from __future__ import annotations
+
+import sys
+try:
+    sys.stdout.reconfigure(errors="replace")
+    sys.stderr.reconfigure(errors="replace")
+except Exception:
+    pass
 import json
 from pathlib import Path
 from typing import Any
@@ -39,7 +46,7 @@ def main() -> None:
     defaults = load_json(DEFAULTS) if DEFAULTS.exists() else {}
     want_act = defaults.get("default_act", 1)
     want_scene = defaults.get("default_scene_id", "S0_CHARACTER_CREATION")
-    want_loc = defaults.get("default_location", "Whiterun — Battle of Whiterun (Staging)")
+    want_loc = defaults.get("default_location", "Whiterun â€” Battle of Whiterun (Staging)")
     want_hold = defaults.get("default_hold", "Whiterun")
 
     pos_path = STATE / "campaign_position.json"
@@ -89,9 +96,9 @@ def main() -> None:
     print("ON-TRACK CHECK")
     print("=" * 70)
     if not issues:
-        print("✅ PASS — Vault state matches the module start point.")
+        print("âœ… PASS â€” Vault state matches the module start point.")
     else:
-        print("❌ FAIL — Issues detected:")
+        print("âŒ FAIL â€” Issues detected:")
         for i in issues:
             print(f"- {i}")
         print("\nRecommended fixes:")

@@ -1,0 +1,489 @@
+diff --git a/scripts/on_track.py b/scripts/on_track.py
+--- a/scripts/on_track.py
++++ b/scripts/on_track.py
+@@ -1,200 +1,200 @@
+ """
+ on_track.py
+ Read-only alignment check: are we following the module rails?
+ 
+ Usage:
+   python scripts/on_track.py
+ 
+ Outputs:
+ - PASS/FAIL summary
+ - If FAIL, exact edits to re-align to `state/startup_defaults.json` (module start)
+ """
+ 
+ from __future__ import annotations
+ import json
+ from pathlib import Path
+ from typing import Any
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+ STATE = ROOT / "state"
+ CLOCKS = ROOT / "clocks" / "skyrim_clocks.json"
+ DEFAULTS = STATE / "startup_defaults.json"
+ 
+ def load_json(path: Path) -> dict:
+     try:
+         return json.loads(path.read_text(encoding="utf-8"))
+     except FileNotFoundError:
+         return {}
+     except json.JSONDecodeError as e:
+         print(f"Warning: Invalid JSON in {path}: {e}")
+         return {}
+     except Exception as e:
+         print(f"Warning: Error reading {path}: {e}")
+         return {}
+ 
+ def main() -> None:
+     issues: list[str] = []
+     recs: list[str] = []
+ 
+     defaults = load_json(DEFAULTS) if DEFAULTS.exists() else {}
+     want_act = defaults.get("default_act", 1)
+     want_scene = defaults.get("default_scene_id", "S0_CHARACTER_CREATION")
+     want_loc = defaults.get("default_location", "Whiterun — Battle of Whiterun (Staging)")
+     want_hold = defaults.get("default_hold", "Whiterun")
+ 
+     pos_path = STATE / "campaign_position.json"
+     pc_path = STATE / "pc_profile.json"
+ 
+     if not pos_path.exists():
+         issues.append("Missing state/campaign_position.json")
+         recs.append("Run: python scripts/apply_template.py --template MODULE_START_BATTLE_OF_WHITERUN")
+     else:
+         pos = load_json(pos_path)
+         act = pos.get("current_act")
+         scene = pos.get("current_scene_id", "")
+         hold = pos.get("current_hold", "")
+         loc = pos.get("current_location", "")
+ 
+         if act != want_act:
+             issues.append(f"current_act is {act} (expected {want_act} for module start)")
+             recs.append(f"Edit state/campaign_position.json: set current_act={want_act}")
+         if scene != want_scene:
+             issues.append(f"current_scene_id is '{scene}' (expected '{want_scene}' for Session Zero gate)")
+             recs.append(f"Edit state/campaign_position.json: set current_scene_id='{want_scene}'")
+         if hold != want_hold:
+             issues.append(f"current_hold is '{hold}' (expected '{want_hold}')")
+             recs.append(f"Edit state/campaign_position.json: set current_hold='{want_hold}'")
+         if loc != want_loc:
+             issues.append(f"current_location is '{loc}' (expected '{want_loc}')")
+             recs.append(f"Edit state/campaign_position.json: set current_location='{want_loc}'")
+ 
+     if pc_path.exists():
+         pc = load_json(pc_path)
+         if not pc.get("created", False):
+             issues.append("PC creation gate NOT complete (state/pc_profile.json.created=false)")
+             recs.append("Complete Session Zero (tools/SESSION_ZERO_GATE.md), then set created=true and fill fields.")
+     else:
+         issues.append("Missing state/pc_profile.json (cannot enforce Session Zero gate)")
+         recs.append("Run: python scripts/apply_template.py --template MODULE_START_BATTLE_OF_WHITERUN")
+ 
+     # Light clock sanity (optional)
+     if CLOCKS.exists():
+         clocks = load_json(CLOCKS)
+         act_key = f"act_{want_act:02d}_whiterun_outcome" if want_act == 1 else None
+         if act_key and act_key not in clocks.get("act_clocks", {}):
+             # Don't fail hard; just warn.
+             issues.append(f"Clock missing: clocks.skyrim_clocks.json.act_clocks.{act_key} (expected for Act 1)")
+ 
+     print("=" * 70)
+     print("ON-TRACK CHECK")
+     print("=" * 70)
+     if not issues:
+-        print("✅ PASS — Vault state matches the module start point.")
++        print("[PASS] Vault state matches the module start point.")
+     else:
+-        print("❌ FAIL — Issues detected:")
++        print("[FAIL] Issues detected:")
+         for i in issues:
+             print(f"- {i}")
+         print("\nRecommended fixes:")
+         for r in recs:
+             print(f"- {r}")
+     print("=" * 70)
+ 
+ if __name__ == "__main__":
+     main()
+
+diff --git a/scripts/build_context.py b/scripts/build_context.py
+--- a/scripts/build_context.py
++++ b/scripts/build_context.py
+@@ -1,200 +1,200 @@
+ """
+ build_context.py
+ Print a GM Context Pack to stdout (read-only).
+ 
+ Combines:
+ - state/campaign_state.json
+ - state/campaign_position.json (if present)
+ - state/pc_profile.json (if present)
+ - clocks/skyrim_clocks.json
+ - most recent log file (if any)
+ 
+ Usage:
+   python scripts/build_context.py
+ """
+ 
+ from __future__ import annotations
+ import json
+ from pathlib import Path
+ from typing import Any, Optional
+ 
+ ROOT = Path(__file__).resolve().parents[1]
+ CLOCKS = ROOT / "clocks" / "skyrim_clocks.json"
+ STATE = ROOT / "state"
+ CAMP = STATE / "campaign_state.json"
+ POS = STATE / "campaign_position.json"
+ PC = STATE / "pc_profile.json"
+ DEFAULTS = STATE / "startup_defaults.json"
+ LOGS = ROOT / "logs"
+ 
+ def load_json(path: Path) -> Optional[dict]:
+     if not path.exists():
+         return None
+     try:
+         return json.loads(path.read_text(encoding="utf-8"))
+     except Exception:
+         return None
+ 
+ def newest_log_path() -> Optional[Path]:
+     if not LOGS.exists():
+         return None
+     files = sorted(LOGS.glob("session_*.md"), reverse=True)
+     return files[0] if files else None
+ 
+ def find_act_file(act: Any) -> str:
+     acts_dir = ROOT / "modules" / "acts"
+     if not acts_dir.exists():
+         return "modules/acts/ACT_01_BATTLE_OF_WHITERUN.md (start here)"
+     if isinstance(act, int):
+         matches = sorted(acts_dir.glob(f"ACT_{act:02d}_*.md"))
+         if matches:
+             return str(matches[0].relative_to(ROOT))
+     # fallback
+     fallback = acts_dir / "ACT_01_BATTLE_OF_WHITERUN.md"
+     return str(fallback.relative_to(ROOT)) if fallback.exists() else "modules/acts/ACT_01_BATTLE_OF_WHITERUN.md (start here)"
+ 
+ def main() -> None:
+     state = load_json(CAMP) or {}
+     pos = load_json(POS) or {}
+     pc = load_json(PC) or {}
+     defaults = load_json(DEFAULTS) or {}
+ 
+     clocks = load_json(CLOCKS) or {}
+     log_path = newest_log_path()
+ 
+     print("=" * 70)
+     print("GM CONTEXT PACK")
+     print("=" * 70)
+ 
+     # Startup defaults
+     if defaults:
+         print("\n## Startup Defaults (when state is missing/blank)")
+         print(f"- Start point: {defaults.get('default_start_point')}")
+         print(f"- Act: {defaults.get('default_act')} | Scene: {defaults.get('default_scene_id')}")
+         print(f"- Location: {defaults.get('default_location')}")
+ 
+     print("\n## Current Position")
+     print(f"- Act: {pos.get('current_act')}")
+     print(f"- Scene ID: {pos.get('current_scene_id', '(unset)')}")
+     print(f"- Hold: {pos.get('current_hold')}")
+     loc = pos.get('current_location') or state.get('current_location')
+     print(f"- Location: {loc}")
+ 
+     # Session Zero Gate
+     created = bool(pc.get("created", False))
+     print("\n## Session Zero Gate")
+     if not created:
+-        print("❗ STOP — PC not created yet.")
++        print("[STOP] PC not created yet.")
+         req = (pc.get("required_fields") or defaults.get("pc_creation_gate", {}).get("required_fields") or [])
+         if req:
+             print("- Required fields:", ", ".join(req))
+         print("- See: tools/SESSION_ZERO_GATE.md")
+         print("- Active PC sheet:", pc.get("active_pc_file", "pcs/PC_MAIN.md"))
+     else:
+-        print("✅ PC created.")
++        print("[OK] PC created.")
+         pcdata = pc.get("pc", {})
+         if pcdata:
+             print(f"- Name: {pcdata.get('name')}")
+             print(f"- Affiliation: {pcdata.get('affiliation_primary')} ({pcdata.get('starting_role')})")
+ 
+     print("\n## Party/Flags")
+     print(f"- Party: {state.get('party',{})}")
+     print(f"- Flags: {state.get('major_flags',{})}")
+ 
+     print("\n## Key Clocks (master)")
+     for k, v in clocks.get("master_clocks", {}).items():
+         print(f"- {k}: {v.get('current',0)}/{v.get('max',0)}")
+ 
+     print("\n## Suggested next files to open")
+     print(f"- {find_act_file(pos.get('current_act'))}")
+     print("- story_branches/BRANCH_MATRIX.md")
+     print("- tools/STARTUP_PROTOCOL.md")
+     print("- tools/ON_TRACK_PROTOCOL.md")
+     print("- tools/DRAGONBREAK_PROTOCOL.md")
+ 
+     if log_path:
+         print("\n## Most recent log")
+         print(f"- {log_path.name}")
+ 
+     print("=" * 70)
+ 
+ if __name__ == "__main__":
+     main()
+
+diff --git a/scripts/first_run.py b/scripts/first_run.py
+--- a/scripts/first_run.py
++++ b/scripts/first_run.py
+@@ -1,200 +1,200 @@
+ """
+ first_run.py
+ Terminal intro for new GMs or devs.
+ 
+ Usage:
+   python scripts/first_run.py
+ 
+ Behavior:
+ - Provides an interactive onboarding experience
+ - Guides new users through the repository structure
+ - Suggests next steps and key files to review
+ """
+ 
+ import sys
+ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parent.parent
+ 
+ 
+ def print_banner():
+     """Print welcome banner."""
+-    banner = """
+-╔═══════════════════════════════════════════════════════════════════╗
+-║                                                                   ║
+-║          SKYRIM FATE CORE CAMPAIGN VAULT - FIRST RUN              ║
+-║                                                                   ║
+-║                    Welcome to 4E 201 Tamriel                      ║
+-║                                                                   ║
+-╚═══════════════════════════════════════════════════════════════════╝
+-"""
++    banner = """
++======================================================================
++SKYRIM FATE CORE CAMPAIGN VAULT - FIRST RUN
++Welcome to 4E 201 Tamriel
++======================================================================
++"""
+     print(banner)
+ 
+ 
+ def print_section(title: str, content: str):
+     """Print a formatted section."""
+     print()
+-    print("─" * 70)
++    print("-" * 70)
+     print(f"  {title}")
+-    print("─" * 70)
++    print("-" * 70)
+     print(content)
+ 
+ 
+ def check_file_exists(file_path: Path) -> str:
+     """Return a status indicator for file existence."""
+-    return "✅" if file_path.exists() else "❌"
++    return "OK" if file_path.exists() else "MISSING"
+ 
+ 
+ def show_repository_structure():
+     """Display the repository structure with status checks."""
+     structure = f"""
+ Key directories and their purpose:
+ 
+-  {check_file_exists(ROOT / 'clocks')} /clocks/          — Progress clocks (master, act, faction)
+-  {check_file_exists(ROOT / 'state')} /state/           — Campaign state and flags
+-  {check_file_exists(ROOT / 'modules')} /modules/         — Act modules and narrative frameworks
+-  {check_file_exists(ROOT / 'factions')} /factions/        — Faction packs
+-  {check_file_exists(ROOT / 'npcs')} /npcs/            — Named NPCs with aspects and stunts
+-  {check_file_exists(ROOT / 'pcs')} /pcs/             — Player character sheets
+-  {check_file_exists(ROOT / 'hooks')} /hooks/           — Story hooks organized by act/faction
+-  {check_file_exists(ROOT / 'logs')} /logs/            — Session logs
+-  {check_file_exists(ROOT / 'rules')} /rules/           — Fate Core mechanics and quickrefs
+-  {check_file_exists(ROOT / 'scripts')} /scripts/         — Automation and validation tools
++  {check_file_exists(ROOT / 'clocks')} /clocks/          - Progress clocks (master, act, faction)
++  {check_file_exists(ROOT / 'state')} /state/           - Campaign state and flags
++  {check_file_exists(ROOT / 'modules')} /modules/         - Act modules and narrative frameworks
++  {check_file_exists(ROOT / 'factions')} /factions/        - Faction packs
++  {check_file_exists(ROOT / 'npcs')} /npcs/            - Named NPCs with aspects and stunts
++  {check_file_exists(ROOT / 'pcs')} /pcs/             - Player character sheets
++  {check_file_exists(ROOT / 'hooks')} /hooks/           - Story hooks organized by act/faction
++  {check_file_exists(ROOT / 'logs')} /logs/            - Session logs
++  {check_file_exists(ROOT / 'rules')} /rules/           - Fate Core mechanics and quickrefs
++  {check_file_exists(ROOT / 'scripts')} /scripts/         - Automation and validation tools
+ """
+-    print_section("📁 REPOSITORY STRUCTURE", structure)
++    print_section("REPOSITORY STRUCTURE", structure)
+ 
+ 
+ def show_quick_start():
+     """Display quick start guide."""
+     guide = """
+ 1. Read the campaign premise:
+-   → cat MASTER_KEY.md
++   -> cat MASTER_KEY.md
+ 
+ 2. Review the repository index:
+-   → cat INDEX.md
++   -> cat INDEX.md
+ 
+ 3. Check current campaign state:
+-   → cat state/campaign_state.json
+-   → cat clocks/skyrim_clocks.json
++   -> cat state/campaign_state.json
++   -> cat clocks/skyrim_clocks.json
+ 
+ 4. Review the Five Acts structure:
+-   → ls modules/acts/
++   -> ls modules/acts/
+ 
+ 5. Explore available hooks:
+-   → cat hooks/HOOK_BANK.md
++   -> cat hooks/HOOK_BANK.md
+ 
+ 6. Create your first session log:
+-   → python scripts/session_stamp.py
++   -> python scripts/session_stamp.py
+ """
+-    print_section("🚀 QUICK START GUIDE", guide)
++    print_section("QUICK START GUIDE", guide)
+ 
+ 
+ def show_gm_tools():
+     """Display available GM tools."""
+     tools = """
+ Automation scripts in /scripts/:
+ 
+-  • session_stamp.py      — Create timestamped session logs
+-  • dragonbreak_cue.py    — Check for Dragonbreak moment eligibility
+-  • custom_scan.py        — Validate repository for banned terms
+-  • validate_state.py     — Validate state files
+-  • build_context.py      — Build context for AI tools
++  - session_stamp.py      - Create timestamped session logs
++  - dragonbreak_cue.py    - Check for Dragonbreak moment eligibility
++  - custom_scan.py        - Validate repository for banned terms
++  - validate_state.py     - Validate state files
++  - build_context.py      - Build context for AI tools
+ 
+ Validation:
+-  → python scripts/custom_scan.py
+-  → python scripts/validate_state.py
++  -> python scripts/custom_scan.py
++  -> python scripts/validate_state.py
+ """
+-    print_section("🛠️  GM AUTOMATION TOOLS", tools)
++    print_section("GM AUTOMATION TOOLS", tools)
+ 
+ 
+ def show_workflow():
+     """Display session workflow."""
+     workflow = """
+ After each session:
+ 
+   1. Update session log in /logs/
+   2. Tick relevant clocks in /clocks/skyrim_clocks.json
+   3. Update campaign state in /state/campaign_state.json
+   4. Update NPC relationship clocks if needed
+   5. Review /hooks/ for triggered complications
+ 
+ Before next session:
+ 
+   1. Check for Dragonbreak moment eligibility:
+-     → python scripts/dragonbreak_cue.py
++     -> python scripts/dragonbreak_cue.py
+ 
+   2. Review current state and clocks
+   3. Prepare hooks and complications
+ """
+-    print_section("📋 SESSION WORKFLOW", workflow)
++    print_section("SESSION WORKFLOW", workflow)
+ 
+ 
+ def show_key_concepts():
+     """Display key campaign concepts."""
+     concepts = """
+-• The Dragonborn is absent — your PCs are the heroes
+-• Civil war between Stormcloaks and Imperials is active
+-• Thalmor endgame lurks beneath the surface conflict
+-• Dragonbreak moments are rare mythic threads (not mandatory)
+-• Progress is tracked through Fate Core clocks
+-• Gritty tone: war has costs, diplomacy matters
++- The Dragonborn is absent - your PCs are the heroes
++- Civil war between Stormcloaks and Imperials is active
++- Thalmor endgame lurks beneath the surface conflict
++- Dragonbreak moments are rare mythic threads (not mandatory)
++- Progress is tracked through Fate Core clocks
++- Gritty tone: war has costs, diplomacy matters
+ 
+ Era: 4E 201 (Fourth Era, Year 201)
+ Location: Skyrim, Province of Tamriel
+ System: Fate Core by Evil Hat Productions
+ """
+-    print_section("🌟 KEY CAMPAIGN CONCEPTS", concepts)
++    print_section("KEY CAMPAIGN CONCEPTS", concepts)
+ 
+ 
+ def show_next_steps():
+     """Display suggested next steps."""
+     next_steps = """
+ Choose your path:
+ 
+   [1] I'm a new GM starting a campaign
+-      → Read MASTER_KEY.md and README.md
+-      → Review modules/acts/ for the Five Acts structure
+-      → Set up initial state in /state/ files
++      -> Read MASTER_KEY.md and README.md
++      -> Review modules/acts/ for the Five Acts structure
++      -> Set up initial state in /state/ files
+ 
+   [2] I'm joining an existing campaign
+-      → Review current /state/campaign_state.json
+-      → Check /clocks/skyrim_clocks.json for progress
+-      → Read recent session logs in /logs/
++      -> Review current /state/campaign_state.json
++      -> Check /clocks/skyrim_clocks.json for progress
++      -> Read recent session logs in /logs/
+ 
+   [3] I'm a developer working on the vault
+-      → Review .github/copilot-instructions.md
+-      → Run validation: python scripts/custom_scan.py
+-      → Check scripts/ for automation tools
++      -> Review .github/copilot-instructions.md
++      -> Run validation: python scripts/custom_scan.py
++      -> Check scripts/ for automation tools
+ 
+   [4] I want to explore the lore
+-      → Review /modules/ for act frameworks
+-      → Check /factions/ for faction details
+-      → Browse /npcs/ for character sheets
++      -> Review /modules/ for act frameworks
++      -> Check /factions/ for faction details
++      -> Browse /npcs/ for character sheets
+ """
+-    print_section("🎯 NEXT STEPS", next_steps)
++    print_section("NEXT STEPS", next_steps)
+@@
+     show_next_steps()
+ 
+     print()
+-    print("═" * 70)
++    print("=" * 70)
+     print("  May your legends echo across Sovngarde.")
+-    print("═" * 70)
++    print("=" * 70)
+     print()
+ 
+ if __name__ == "__main__":
+     main()
+
