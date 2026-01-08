@@ -1,0 +1,56 @@
+--- /mnt/data/skyrim_repo2_orig/Skyrim_Repo_2-main/scripts/first_run.py	2026-01-08 07:05:52.000000000 +0000
++++ /mnt/data/skyrim_repo2/Skyrim_Repo_2-main/scripts/first_run.py	2026-01-08 15:45:10.940027408 +0000
+@@ -12,6 +12,7 @@
+ """
+ 
+ import sys
++import subprocess
+ from pathlib import Path
+ 
+ ROOT = Path(__file__).resolve().parent.parent
+@@ -174,13 +175,45 @@
+     print_section("🎯 NEXT STEPS", next_steps)
+ 
+ 
++def show_current_hud() -> None:
++    """Print current campaign HUD by running build_context.py.
++
++    This intentionally shells out to avoid import-path quirks when running
++    scripts directly.
++    """
++    build_context = ROOT / "scripts" / "build_context.py"
++    if not build_context.exists():
++        print_section(
++            "🧭 CURRENT CAMPAIGN HUD",
++            "(build_context.py not found — expected at scripts/build_context.py)",
++        )
++        return
++
++    print()
++    print("═" * 70)
++    print("  🧭 CURRENT CAMPAIGN HUD")
++    print("═" * 70)
++    try:
++        # Let build_context print directly to stdout.
++        subprocess.run([sys.executable, str(build_context)], check=False)
++    except Exception as e:
++        print(f"(Failed to run build_context.py: {e})")
++
++
+ def main():
+     """Run the first-run onboarding experience."""
+     print_banner()
+ 
++    # Quick mode: show banner + HUD and exit.
++    if any(arg in ("--quick", "--hud", "--context") for arg in sys.argv[1:]):
++        show_current_hud()
++        return
++
+     print()
+     print("This is your first-run guide for the Skyrim Fate Core Campaign Vault.")
+     print()
++    # Show the live HUD early so returning GMs can see where the vault thinks they are.
++    show_current_hud()
+     input("Press Enter to continue...")
+ 
+     show_repository_structure()
