@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "description": "Quest state flags for tracking campaign progression (module-start template)",
+    "updated": "2026-01-05"
+  },
+  "main_quest_flags": {
+    "helgen_escaped": true,
+    "bleak_falls_retrieved": false,
+    "dragonstone_delivered": false,
+    "whiterun_battle_started": true,
+    "whiterun_battle_complete": true,
+    "civil_war_joined": true,
+    "civil_war_side": "stormcloak",
+    "thalmor_evidence_found": true,
+    "thalmor_evidence_revealed": true,
+    "whiterun_flip_in_progress": false,
+    "ulfric_restraint_oath_sworn": true
+  },
+  "faction_quest_flags": {
+    "companions": {
+      "joined": false
+    },
+    "thieves_guild": {
+      "joined": false
+    },
+    "college_of_winterhold": {
+      "joined": false
+    },
+    "dark_brotherhood": {
+      "joined": false
+    }
+  },
+  "whiterun_flags": {
+    "proventus_detained": true,
+    "cipius_detained": true,
+    "gatehouse_secured": true,
+    "thalmor_cell_exposed": true,
+    "sun_wax_eliminated": true,
+    "stablefire_prevented": true,
+    "sympathizer_sweep_pending": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "current_act": "ACT_1",
+  "current_scene_id": "S3_GATEHOUSE_PURGE_POST_DUEL",
+  "current_hold": "Whiterun",
+  "current_location": "Whiterun — Gatehouse (Inner)",
+  "start_point": "ACT_01_BATTLE_OF_WHITERUN",
+  "module_anchor": {
+    "module_id": "ACT_01_BATTLE_OF_WHITERUN",
+    "scene_id": "S0_CHARACTER_CREATION"
+  },
+  "focus_factions": [],
+  "last_log": "",
+  "on_track": {
+    "status": "unknown",
+    "last_checked": "",
+    "notes": ""
+  },
+  "last_save_id": "SG_0001_WHITERUN_GATEHOUSE"
+}

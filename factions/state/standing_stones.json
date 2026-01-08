@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "version": "1.0",
+    "notes": "Standing Stones as lightweight Extras. Each provides a passive perk and a built-in compel hook for balance."
+  },
+  "stones": [
+    {
+      "id": "warrior",
+      "name": "The Warrior Stone",
+      "theme": "martial discipline",
+      "passive": "Once per session, gain +2 to Overcome using Fight/Physique when brute skill or discipline matters.",
+      "compel_hook": "Glory-seeking; you escalate rather than negotiate.",
+      "act_upgrades": {
+        "act_3": "Once per scene, treat your first physical consequence as one step less severe if you immediately press the attack.",
+        "act_5": "In the first exchange of a conflict, gain a free invoke on 'Steel Before Speech'."
+      }
+    },
+    {
+      "id": "mage",
+      "name": "The Mage Stone",
+      "theme": "arcane insight",
+      "passive": "Once per session, gain +2 to Create Advantage using Lore when casting, warding, or deciphering magic.",
+      "compel_hook": "Curiosity overrides caution; you touch the forbidden thing.",
+      "act_upgrades": {
+        "act_3": "Once per scene, you may swap one action’s approach (e.g., Fight→Lore) if you describe a magical method.",
+        "act_5": "Your first successful spell-based Create Advantage in a scene grants an extra free invoke."
+      }
+    },
+    {
+      "id": "thief",
+      "name": "The Thief Stone",
+      "theme": "subtlety",
+      "passive": "Once per session, gain +2 to Overcome using Stealth/Deceit when bypassing guards, locks, or attention.",
+      "compel_hook": "You take the riskier shortcut; it creates new trouble.",
+      "act_upgrades": {
+        "act_3": "Once per scene, if you succeed with style on a stealthy Overcome, gain a boost even if the GM would not normally grant one.",
+        "act_5": "In infiltration scenes, begin with a free boost: 'Two Steps Ahead'."
+      }
+    },
+    {
+      "id": "lover",
+      "name": "The Lover Stone",
+      "theme": "bond & fortune",
+      "passive": "Once per session, help an ally: grant them +2 on a roll where you can plausibly assist.",
+      "compel_hook": "You protect someone at the worst possible time.",
+      "act_upgrades": {
+        "act_3": "Once per scene, you may take a consequence instead of an ally when you defend them.",
+        "act_5": "Once per session, convert a boost into a full scene aspect with one free invoke."
+      }
+    },
+    {
+      "id": "shadow",
+      "name": "The Shadow Stone",
+      "theme": "vanish",
+      "passive": "Once per session, declare you disappear from immediate notice (Create Advantage at +2) if shadows exist.",
+      "compel_hook": "Secrecy isolates you; allies feel excluded or suspicious.",
+      "act_upgrades": {
+        "act_3": "Once per scene, you may move to a new zone without opposition if you’re unseen.",
+        "act_5": "Your first stealth-based Create Advantage in a scene grants two free invokes (GM may compel fallout later)."
+      }
+    },
+    {
+      "id": "ritual",
+      "name": "The Ritual Stone",
+      "theme": "deep magic",
+      "passive": "Once per session, perform a significant ritual as a Challenge: take +2 on one roll of the challenge.",
+      "compel_hook": "Ritual demands time/components; clocks tick while you prepare.",
+      "act_upgrades": {
+        "act_3": "Rituals can create lasting campaign aspects (with GM agreement) once per act.",
+        "act_5": "Once per session, you may reduce a ritual challenge by 1 roll if you accept a complication."
+      }
+    },
+    {
+      "id": "serpent",
+      "name": "The Serpent Stone",
+      "theme": "venom & risk",
+      "passive": "Once per session, when you succeed on an Attack, you may add a mild consequence 'Poisoned' instead of normal stress (fiction permitting).",
+      "compel_hook": "Your methods are feared; witnesses react badly.",
+      "act_upgrades": {
+        "act_3": "Once per scene, your first Create Advantage with poison/dirty tricks gets +2.",
+        "act_5": "Once per session, you may turn an enemy boost into a consequence by escalating cruelty."
+      }
+    },
+    {
+      "id": "steed",
+      "name": "The Steed Stone",
+      "theme": "mobility",
+      "passive": "Once per session, gain +2 to Overcome using Athletics when chasing, escaping, or forced marches.",
+      "compel_hook": "Restlessness; you push the pace and exhaust others.",
+      "act_upgrades": {
+        "act_3": "You may ignore one terrain-based penalty per scene.",
+        "act_5": "Once per scene, you may act first in an exchange if you enter the scene in motion."
+      }
+    },
+    {
+      "id": "tower",
+      "name": "The Tower Stone",
+      "theme": "doors open",
+      "passive": "Once per session, bypass a lock/barrier as if you had the right key (narratively justified).",
+      "compel_hook": "Locks break loudly; consequences follow (guards, damage, blame).",
+      "act_upgrades": {
+        "act_3": "Once per session, create advantage 'Access Granted' with one free invoke when breaking into a place.",
+        "act_5": "In Act V infiltration, you may declare one obstacle was already prepared for."
+      }
+    },
+    {
+      "id": "lord",
+      "name": "The Lord Stone",
+      "theme": "resilience",
+      "passive": "Once per session, reduce the severity of a physical consequence by one step (with a narrative explanation).",
+      "compel_hook": "You feel invincible and take hits you shouldn’t.",
+      "act_upgrades": {
+        "act_3": "Once per scene, gain +2 to defend using Physique against physical harm.",
+        "act_5": "Once per session, clear an additional stress box after a conflict."
+      }
+    },
+    {
+      "id": "lady",
+      "name": "The Lady Stone",
+      "theme": "recovery",
+      "passive": "Once per session, immediately clear a mild consequence if you can take a short rest or receive care.",
+      "compel_hook": "You try to heal everyone; it costs time and safety.",
+      "act_upgrades": {
+        "act_3": "Once per scene, your Create Advantage related to aid/healing gains +2.",
+        "act_5": "Once per session, remove a lingering negative scene aspect by tending the situation."
+      }
+    },
+    {
+      "id": "apprentice",
+      "name": "The Apprentice Stone",
+      "theme": "raw power",
+      "passive": "Once per session, gain +2 to an Attack that is explicitly magical or explosive in nature.",
+      "compel_hook": "Power backfires; the GM gets a juicy compel on collateral damage.",
+      "act_upgrades": {
+        "act_3": "Once per scene, your first spellcasting roll gains a boost on success.",
+        "act_5": "Once per session, you may force a reroll in your favor… but accept a complication."
+      }
+    },
+    {
+      "id": "atronach",
+      "name": "The Atronach Stone",
+      "theme": "absorption",
+      "passive": "Once per session, when targeted by magic, you may gain +2 to defend; on success, create advantage 'Stolen Spark' with one free invoke.",
+      "compel_hook": "Magic resistance isolates you; beneficial spells struggle to affect you.",
+      "act_upgrades": {
+        "act_3": "Once per scene, you may convert a magical attack you defended against into a boost.",
+        "act_5": "Once per session, nullify a minor magical effect outright (GM defines)."
+      }
+    }
+  ]
+}

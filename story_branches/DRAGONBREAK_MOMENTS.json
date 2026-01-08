@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "description": "Module-keyed Dragonbreak / Secret Turn moments. Keep scene IDs updated in state/campaign_position.json.",
+    "updated": "2026-01-05"
+  },
+  "moments": [
+    {
+      "id": "DB_ACT01_SIEGE_CHOICE",
+      "title": "The Siege Chooses You (timeline fork)",
+      "act": 1,
+      "scene_ids": [
+        "S1_SIEGE_OPENING",
+        "S2_CHOOSE_SIDE"
+      ],
+      "gm_cue": "Use the siege chaos to justify a timeline fork: who you side with, and what price you pay, becomes canon.",
+      "player_prompt": "In the first breach attempt, what do you do that marks you as 'Stormcloak', 'Imperial', or 'Other'?",
+      "recommended_updates": [
+        "state/pc_profile.json: set affiliation_primary + starting_role",
+        "state/quest_flags.json: set civil_war_joined + civil_war_side if applicable",
+        "state/campaign_position.json: advance current_scene_id to S3_FIRST_BLOOD"
+      ]
+    },
+    {
+      "id": "DB_ACT01_WARD_BREACH",
+      "title": "The Ward That Wasn't (contradictory outcomes)",
+      "act": 1,
+      "scene_ids": [
+        "S4_GATEHOUSE_CHAOS",
+        "S5_WARD_OR_FIRE"
+      ],
+      "gm_cue": "If the table splits on what 'really' happened (gate fell vs ward held), reconcile with a Dragonbreak: both happened in overlapping fragments.",
+      "player_prompt": "Describe the surreal moment (sound, light, memory glitch) that makes two outcomes feel simultaneously true.",
+      "recommended_updates": [
+        "logs/: record fork + chosen canon",
+        "state/campaign_position.on_track.notes: add a one-line Dragonbreak note",
+        "clocks/skyrim_clocks.json: tick act_01_whiterun_outcome by 1"
+      ]
+    }
+  ]
+}
