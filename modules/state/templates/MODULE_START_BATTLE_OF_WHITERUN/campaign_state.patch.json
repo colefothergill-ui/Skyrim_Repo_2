@@ -1,0 +1,18 @@
+{
+  "current_location": "Whiterun \u2014 Battle of Whiterun (Staging)",
+  "startup": {
+    "start_point": "ACT_01_BATTLE_OF_WHITERUN",
+    "session_zero_mode": true,
+    "notes": "Begin at the module opening. Run Session Zero PC creation at the siege start before play proceeds."
+  },
+  "party": {
+    "alignment": "unassigned",
+    "allies": [],
+    "enemies": []
+  },
+  "major_flags": {
+    "whiterun_decided": false,
+    "proof_of_thalmor_manipulation_found": false,
+    "battle_of_whiterun_started": true
+  }
+}

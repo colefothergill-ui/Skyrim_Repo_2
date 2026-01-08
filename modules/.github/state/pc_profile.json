@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "description": "PC creation gate. If created=false, the GM MUST run Session Zero before play proceeds.",
+    "updated": "2026-01-08",
+    "patch": "Session Zero complete: Agran created"
+  },
+  "created": true,
+  "active_pc_file": "pcs/PC_MAIN.md",
+  "required_fields": [
+    "name",
+    "high_concept",
+    "trouble",
+    "affiliation_primary",
+    "starting_role",
+    "skills_or_approaches",
+    "stunt_1"
+  ],
+  "pc": {
+    "name": "Agran Moorcroft",
+    "old_mortal_name": "Lord Peryn Ashhart",
+    "race": "Breton (Vampire)",
+    "affiliation_primary": "college_of_winterhold",
+    "affiliation_secondary": null,
+    "starting_role": "Mage support / ward-breaker / battlefield medic",
+    "high_concept": "Master Moorcroft of Alteration — Commander Peryn the Undying",
+    "trouble": "Secret of My Sanguine",
+    "other_aspects": [
+      "Master Agran — Every Student’s Favorite",
+      "Lord Peryn Ashhart, Raised by “The Order”",
+      "Make Winterhold Eclipse the Imperial City’s “Blowhards”"
+    ],
+    "skills_or_approaches": {
+      "+4": [
+        "Lore"
+      ],
+      "+3": [
+        "Will",
+        "Rapport"
+      ],
+      "+2": [
+        "Physique",
+        "Athletics",
+        "Empathy"
+      ],
+      "+1": [
+        "Fight",
+        "Craft",
+        "Stealth",
+        "Notice"
+      ]
+    },
+    "stunts": [
+      "Greater Telekinesis (Alteration)",
+      "Ebony Flesh",
+      "Geomancy"
+    ],
+    "extras": [
+      "Breton (Magic Resistance)",
+      "Vampire (Hunger Track)",
+      "Master Moore’s Tome of Mastery (Artifact)"
+    ]
+  }
+}

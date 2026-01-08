@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "description": "Party state tracking for current companions and cohesion",
+    "updated": "2026-01-05",
+    "notes": "Session Zero start template"
+  },
+  "active_companions": [],
+  "party_cohesion_clock": {
+    "current": 0,
+    "max": 6,
+    "note": "Teamwork and cohesion; max grants +1 to teamwork invoking."
+  },
+  "morale": {
+    "state": "neutral",
+    "note": "Start of campaign."
+  },
+  "current_threads": {
+    "goals": [
+      "SESSION ZERO: Create the PC (aspects, skills, stunts).",
+      "Choose primary affiliation + starting role at the Battle of Whiterun.",
+      "Set opening stakes and initial consequences for the siege."
+    ],
+    "unresolved_threads": []
+  }
+}

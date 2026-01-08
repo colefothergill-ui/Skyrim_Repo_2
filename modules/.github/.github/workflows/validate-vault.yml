@@ -1,0 +1,40 @@
+---
+name: Validate Vault
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+  workflow_dispatch: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: JSON sanity
+        run: |
+          python - <<'PY'
+          import json
+          for p in ["clocks/skyrim_clocks.json", "state/campaign_state.json"]:
+              with open(p, "r", encoding="utf-8") as f:
+                  json.load(f)
+          print("✓ JSON loads cleanly")
+          PY
+
+      - name: Compile scripts
+        run: python -m py_compile scripts/*.py
+
+      - name: Validate state + clocks
+        run: python scripts/validate_state.py
+
+      - name: Scan for banned terms
+        run: python scripts/custom_scan.py

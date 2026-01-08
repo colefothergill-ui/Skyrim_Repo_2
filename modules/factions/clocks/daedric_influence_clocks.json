@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "version": "1.0",
+    "notes": "Daedric Influence clocks. Tick when a Prince quest is advanced, an artifact is used in a major way, or the PC embraces champion behavior."
+  },
+  "clocks": {
+    "azura_twilight_omens": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Prophetic twilight dreams and omen-sight spreads. Place a campaign aspect: 'Twilight Warnings Everywhere'."
+    },
+    "boethiah_proving_ground": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Challengers seek the strongest. Place: 'Every Rival Wants a Piece'."
+    },
+    "clavicus_vile_bargains": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Deals infest Skyrim. Place: 'Nothing Comes Free'."
+    },
+    "hermaeus_mora_whispers": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Forbidden knowledge leaks. Place: 'Pages That Shouldn’t Exist'."
+    },
+    "hircine_the_hunt": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "The Hunt follows the PC. Place: 'Predators in the Snow'."
+    },
+    "malacath_grudges": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Old grudges become wars. Place: 'Honor Turns to Vengeance'."
+    },
+    "mehrunes_dagon_embers": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Cult cells ignite chaos. Place: 'Fires Under the Floorboards'."
+    },
+    "mephala_paranoia": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Trust collapses. Place: 'Whispers in Every Hall'."
+    },
+    "meridia_crusade": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "A crusade against undeath begins. Place: 'Light That Burns'."
+    },
+    "molag_bal_chains": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Domination grows. Place: 'Chains in the Mind'."
+    },
+    "namira_rot": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Social rot spreads. Place: 'Hunger in the Dark'."
+    },
+    "nocturnal_shadows": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Shadow-pacts deepen. Place: 'The Shadow Collects'."
+    },
+    "peryite_plague": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Outbreaks and 'cures' spread. Place: 'Breath of Rot'."
+    },
+    "sanguine_scandal": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Chaos-by-indulgence becomes political. Place: 'Scandal Season'."
+    },
+    "sheogorath_glitches": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Reality hiccups. Trigger a Dragonbreak Moment. Place: 'Nothing Is Certain'."
+    },
+    "vaermina_nightmares": {
+      "current": 0,
+      "max": 6,
+      "filled_effect": "Nightmares become contagious. Place: 'Sleep Is Dangerous'."
+    }
+  }
+}

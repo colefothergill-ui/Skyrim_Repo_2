@@ -1,0 +1,8 @@
+{
+  "meta": {
+    "description": "Pointer to the active PC sheet used by protocols/scripts.",
+    "updated": "2026-01-08"
+  },
+  "active_pc_file": "pcs/PC_MAIN.md",
+  "archived_pc_files": []
+}

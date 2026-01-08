@@ -1,0 +1,23 @@
+{
+  "current_location": "Whiterun — Battle of Whiterun (Staging)",
+  "startup": {
+    "start_point": "ACT_01_BATTLE_OF_WHITERUN",
+    "session_zero_mode": false,
+    "notes": "Session Zero complete. Proceed to S1_SIEGE_OPENING."
+  },
+  "party": {
+    "alignment": "undecided",
+    "allies": [],
+    "enemies": []
+  },
+  "major_flags": {
+    "whiterun_decided": false,
+    "proof_of_thalmor_manipulation_found": false,
+    "battle_of_whiterun_started": true
+  },
+  "holds": {
+    "Whiterun": {
+      "control": "contested"
+    }
+  }
+}

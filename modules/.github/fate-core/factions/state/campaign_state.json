@@ -1,0 +1,37 @@
+{
+  "current_location": "Whiterun — Battle of Whiterun (Staging)",
+  "startup": {
+    "start_point": "ACT_01_BATTLE_OF_WHITERUN",
+    "session_zero_mode": false,
+    "notes": "Session Zero complete. Proceed to S1_SIEGE_OPENING."
+  },
+  "party": {
+    "alignment": "stormcloak",
+    "allies": [
+      "Ulfric Stormcloak",
+      "Galmar Stone-Fist",
+      "Ralof",
+      "Irileth",
+      "Farkas",
+      "Aela the Huntress",
+      "Balgruuf the Greater (conditional)"
+    ],
+    "enemies": [
+      "Thalmor handlers (gold-wax cell)",
+      "Legate Cipius (detained)",
+      "Imperial sympathizer network (pending arrests)"
+    ]
+  },
+  "major_flags": {
+    "whiterun_decided": false,
+    "proof_of_thalmor_manipulation_found": false,
+    "battle_of_whiterun_started": true,
+    "whiterun_avoided_massacre": true,
+    "gatehouse_duel_resolved": true
+  },
+  "holds": {
+    "Whiterun": {
+      "control": "contested"
+    }
+  }
+}

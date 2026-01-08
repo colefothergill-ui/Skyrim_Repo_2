@@ -18,12 +18,16 @@ The **Dragonborn is absent**. Your PCs shape the outcome of the civil war — an
 
 ```
 /clocks/          — skyrim_clocks.json (master, act, faction clocks)
+                 — daedric_influence_clocks.json (Prince influence clocks)
 /state/           — campaign_state.json, quest_flags.json, party_state.json
 /modules/         — Act modules, narrative frameworks, and location guides
   /acts/          — Five Acts structure
   /locations/     — Hold and city guides with zone-in commands
+  /daedric_princes/— Daedric questlines, artifacts, champion aspects
+  /dragonbreaks_creatures_companions/ — Dragonbreak moments, creatures, companion framework
 /factions/        — Faction packs (Stormcloaks, Imperials, Thalmor, guilds, etc.)
 /npcs/            — Named NPCs with aspects, stunts, and relationship clocks
+/companions_party/ — Optional party-only NPC index
 /pcs/             — Player character sheets
 /hooks/           — Story hooks organized by act and faction
 /logs/            — Session logs with clock/state updates

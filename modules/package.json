@@ -1,0 +1,14 @@
+{
+  "name": "tamriel-skyrim-repos",
+  "version": "1.0.0",
+  "description": "Skyrim Fate Core Campaign Vault for running a gritty, branching Fate Core campaign set in 4E 201 Skyrim.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.3.1"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "version": "1.0",
+    "notes": "Racial Extras for Fate Core Skyrim. Passive is always-on; upgrades unlock at act conclusions."
+  },
+  "races": [
+    {
+      "id": "nord",
+      "name": "Nord",
+      "passive": "Cold-blooded stubbornness: once per session, gain +2 to defend against fear, intimidation, or supernatural dread.",
+      "compel_hook": "Pride and prejudice can blind you to allies or nuance.",
+      "upgrades": {
+        "act_2": "Snowborn: ignore one cold/weather complication per session.",
+        "act_4": "Unbroken Will: once per session, clear a mental stress box after a compel."
+      }
+    },
+    {
+      "id": "breton",
+      "name": "Breton",
+      "passive": "Magic-resilient: once per session, gain +2 to defend against a magical effect.",
+      "compel_hook": "Arcane politics follow you; people assume you’re ‘mixed up’ in magic.",
+      "upgrades": {
+        "act_2": "Spell-Knit: after you defend vs magic, gain a boost 'Residual Ward' on success.",
+        "act_4": "Counterweave: once per session, cancel a minor magical advantage with a Lore Overcome."
+      }
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial",
+      "passive": "Voice of Empire: once per session, gain +2 to Rapport in a negotiation with authority, soldiers, or officials.",
+      "compel_hook": "Seen as the Empire’s agent; Stormcloaks (and Thalmor) watch you.",
+      "upgrades": {
+        "act_2": "Logistics Mind: once per session, declare a useful supply/contact in a civil setting.",
+        "act_4": "Command Presence: once per scene, allies gain +1 on a roll if they follow your plan (describe it)."
+      }
+    },
+    {
+      "id": "redguard",
+      "name": "Redguard",
+      "passive": "Adrenaline Rush: once per session, gain +2 to an Athletics or Fight Overcome when speed or swordwork matters.",
+      "compel_hook": "Hot blood: you answer insult with action.",
+      "upgrades": {
+        "act_2": "Desert Endurance: ignore one fatigue/exhaustion complication per session.",
+        "act_4": "Sword-Singer Echo: once per session, reroll a Fight roll when defending an oath."
+      }
+    },
+    {
+      "id": "altmer",
+      "name": "Altmer (High Elf)",
+      "passive": "Highborn Sorcery: once per session, gain +2 to Create Advantage using Lore with magic, wards, or enchantment.",
+      "compel_hook": "People assume Thalmor ties; the Thalmor assume *ownership.*",
+      "upgrades": {
+        "act_2": "Arcane Reserve: once per session, take +2 on a second magical roll in the same scene.",
+        "act_4": "Dominion Spotlight: once per session, force a Thalmor complication into a scene (they show up). Gain a Fate point."
+      }
+    },
+    {
+      "id": "bosmer",
+      "name": "Bosmer (Wood Elf)",
+      "passive": "Hunter’s Instinct: once per session, gain +2 to Notice/Survival when tracking or spotting an ambush.",
+      "compel_hook": "The wild calls; civilization rules feel ‘optional.’",
+      "upgrades": {
+        "act_2": "Woods-Wise: ignore one wilderness navigation obstacle per session.",
+        "act_4": "Predator’s Patience: once per session, when you act from hidden position, gain an extra boost on success."
+      }
+    },
+    {
+      "id": "dunmer",
+      "name": "Dunmer (Dark Elf)",
+      "passive": "Ashborn Resolve: once per session, gain +2 to resist pain, fear, or despair (Will).",
+      "compel_hook": "Outsider stigma; old grudges with Nords can ignite.",
+      "upgrades": {
+        "act_2": "Ancestor Whispers: once per session, ask the GM one question about a ruin/ancient site; get a useful hint.",
+        "act_4": "Fire & Ash: once per session, gain +2 on an Attack that uses fire, ash, or destructive magic."
+      }
+    },
+    {
+      "id": "orc",
+      "name": "Orc (Orsimer)",
+      "passive": "Berserker Focus: once per session, gain +2 to Overcome using Physique when breaking, lifting, or enduring harm.",
+      "compel_hook": "People judge you by fear; you may answer accordingly.",
+      "upgrades": {
+        "act_2": "Stronghold Ties: once per session, declare an Orc contact or safehouse in a hold.",
+        "act_4": "Berserker Rage: once per session, turn a tie on an Attack into a success (but take a mild consequence)."
+      }
+    },
+    {
+      "id": "khajiit",
+      "name": "Khajiit",
+      "passive": "Cat’s Grace: once per session, gain +2 to Stealth or Burglary when slipping through tight spaces or crowds.",
+      "compel_hook": "Prejudice + suspicion; guards hassle you first.",
+      "upgrades": {
+        "act_2": "Moon-Sugar Network: once per session, declare a rumor, fence, or black-market lead.",
+        "act_4": "Nine Lives: once per session, downgrade a consequence by one step if you escape the scene."
+      }
+    },
+    {
+      "id": "argonian",
+      "name": "Argonian",
+      "passive": "Marsh-Born: once per session, gain +2 to Athletics/Survival when swimming, diving, or resisting poison/disease.",
+      "compel_hook": "Seen as ‘other’; your loyalty is questioned by everyone.",
+      "upgrades": {
+        "act_2": "Histsense: once per session, you may detect a lie or hidden fear in conversation (ask the GM what’s ‘off’).",
+        "act_4": "Toxic Resilience: once per session, ignore a poison/disease consequence for the rest of the scene."
+      }
+    }
+  ]
+}

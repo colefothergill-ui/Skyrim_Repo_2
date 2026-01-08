@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "description": "Default campaign start behavior when state is missing, blank, or intentionally reset.",
+    "updated": "2026-01-05"
+  },
+  "default_start_point": "ACT_01_BATTLE_OF_WHITERUN",
+  "default_act": 1,
+  "default_scene_id": "S0_CHARACTER_CREATION",
+  "default_hold": "Whiterun",
+  "default_location": "Whiterun \u2014 Battle of Whiterun (Staging)",
+  "pc_creation_gate": {
+    "required": true,
+    "required_fields": [
+      "name",
+      "high_concept",
+      "trouble",
+      "affiliation_primary",
+      "starting_role",
+      "skills_or_approaches",
+      "stunt_1"
+    ],
+    "affiliation_primary_options": [
+      "stormcloaks",
+      "imperials",
+      "companions",
+      "thieves_guild",
+      "college_of_winterhold",
+      "dark_brotherhood",
+      "vigilants_of_stendarr",
+      "neutral"
+    ],
+    "affiliation_secondary_optional": true
+  },
+  "affiliation_to_starting_role": {
+    "stormcloaks": {
+      "role_label": "Stormcloak line fighter / skirmisher",
+      "battle_entry": "Outside the western approach, rallying with Stormcloak forces before the push."
+    },
+    "imperials": {
+      "role_label": "Imperial defender / city watch / legionnaire",
+      "battle_entry": "Inside the walls near the gatehouse, bracing for the first breach attempt."
+    },
+    "companions": {
+      "role_label": "Hired blade (Companions contract)",
+      "battle_entry": "Paid to tip the scales\u2014choose who pays you, then pick your post."
+    },
+    "thieves_guild": {
+      "role_label": "Shadow runner during chaos (Thieves Guild)",
+      "battle_entry": "In the city\u2019s back lanes while the walls shake\u2014your 'battle' is secrets, locks, and escape routes."
+    },
+    "college_of_winterhold": {
+      "role_label": "Mage support / ward-breaker / battlefield medic",
+      "battle_entry": "A neutral 'consultant' brought in for wards, firebreaks, and keeping civilians alive."
+    },
+    "dark_brotherhood": {
+      "role_label": "Assassin with a contract in the noise",
+      "battle_entry": "The siege is cover\u2014your real objective is a name and a moment."
+    },
+    "vigilants_of_stendarr": {
+      "role_label": "Protector of innocents / monster-hunter 'on patrol'",
+      "battle_entry": "You\u2019re here because war attracts things worse than war."
+    },
+    "neutral": {
+      "role_label": "Civilian / courier / outsider caught in the storm",
+      "battle_entry": "You\u2019re not sworn\u2014yet. The siege will force a choice."
+    }
+  },
+  "module_navigation": {
+    "act_01_file": "modules/acts/ACT_01_BATTLE_OF_WHITERUN.md",
+    "branch_matrix_file": "story_branches/BRANCH_MATRIX.md",
+    "dragonbreak_moments_file": "story_branches/DRAGONBREAK_MOMENTS.json"
+  }
+}
