@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "era": "4E 201",
+    "updated": "2026-01-06",
+    "notes": "Post-Whiterun flip: endgame pressure rises; Thalmor shadow war escalates."
+  },
+  "master_clocks": {
+    "civil_war_endgame": {
+      "current": 1,
+      "max": 8,
+      "note": "Ticks when holds fall or decisive victories happen."
+    },
+    "thalmor_influence": {
+      "current": 1,
+      "max": 6,
+      "note": "Ticks on atrocities, sabotage, and Dominion manipulation."
+    }
+  },
+  "act_clocks": {
+    "act_01_whiterun_outcome": {
+      "current": 6,
+      "max": 6,
+      "note": "RESOLVED: Whiterun flipped clean; Thalmor sabotage exposed; Companions respect secured."
+    },
+    "act_02_fronts_shift": {
+      "current": 0,
+      "max": 6,
+      "note": "Tracks escalation across holds."
+    },
+    "act_03_city_crisis_wave": {
+      "current": 0,
+      "max": 6,
+      "note": "Tracks city crises and conspiracies."
+    },
+    "act_04_siege_preparation": {
+      "current": 0,
+      "max": 6,
+      "note": "Tracks final siege prep toward Solitude/Windhelm."
+    },
+    "act_05_true_enemy": {
+      "current": 0,
+      "max": 6,
+      "note": "Tracks direct confrontation with Thalmor endgame."
+    }
+  },
+  "faction_clocks": {
+    "thieves_guild_restoration": {
+      "current": 0,
+      "max": 6,
+      "note": "Side Plot C — Shadows of the Rift."
+    },
+    "dark_brotherhood_emperor_plot": {
+      "current": 0,
+      "max": 6,
+      "note": "Side Plot C — assassination lane intersects the war."
+    },
+    "college_eye_of_magnus": {
+      "current": 0,
+      "max": 6,
+      "note": "Side Plot C — arcane crisis and political fallout."
+    },
+    "companions_harbinger": {
+      "current": 0,
+      "max": 6,
+      "note": "Side Plot C — honor vs wartime brutality."
+    },
+    "forsworn_rebellion": {
+      "current": 0,
+      "max": 6,
+      "note": "Side Plot C — Reach destabilization."
+    },
+    "thalmor_shadow_war": {
+      "current": 3,
+      "max": 6,
+      "note": "Side Plot C — covert operations escalating into Act V."
+    },
+    "stormcloak_trust": {
+      "current": 2,
+      "max": 4,
+      "note": "Oskern standing with the Sons of Skyrim. Ticks on missions/sacrifices for the cause. MAX = promotion + war council access + call-in aid 1/session."
+    },
+    "silver_hand_retaliation": {
+      "current": 3,
+      "max": 6,
+      "note": "Threat clock for Silver Hand counter-hunts aimed at Oskern. Ticks as they learn, mobilize, and set traps. MAX = major strike (ambush/raid/exposure)."
+    },
+    "way_of_the_voice_offshoot": {
+      "current": 2,
+      "max": 4,
+      "note": "Custom faction — Greybeards-adjacent splinter. Ticks on voice-lore, restraint, mentorship. MAX = unlock mentor/word/technique upgrade."
+    }
+  },
+  "personal_clocks": {
+    "hircines_call_oskern": {
+      "current": 2,
+      "max": 6,
+      "note": "How deeply Oskern is claimed by the Hunt. Ticks on rites, trophies, compels accepted. MAX = Hircine escalation/trial + major upgrade."
+    },
+    "beast_mastery_oskern": {
+      "current": 0,
+      "max": 4,
+      "note": "Control during/after transformation. Ticks on resisting frenzy and maintaining intent. MAX = first-shift control becomes reliable."
+    },
+    "unleashed_pup": {
+      "current": 1,
+      "max": 4,
+      "note": "The infected Silver Hand survivor ripple. Ticks as they survive/change/spread. MAX = named NPC + big complication."
+    },
+    "path_to_hircines_champion": {
+      "current": 1,
+      "max": 6,
+      "note": "Long-arc: become Hircine’s Champion. MAX = mantle offered (with price)."
+    },
+    "liberate_falkreath_hold": {
+      "current": 4,
+      "max": 6,
+      "note": "Long-arc: free Falkreath from corruption/Imperial leverage. MAX = hold flips / Siddgeir falls."
+    },
+    "claim_the_jarlship_falkreath": {
+      "current": 3,
+      "max": 6,
+      "note": "Long-arc ambition: take the Jarlship. MAX = you can credibly seize rule and endure fallout."
+    }
+  },
+  "clocks": {
+    "civil_war_whiterun_flip": {
+      "current": 8,
+      "max": 8,
+      "note": "RESOLVED: Whiterun Accord signed; Balgruuf chooses Skyrim; garrison terms set; no massacre."
+    },
+    "thalmor_whiterun_sabotage": {
+      "current": 8,
+      "max": 8,
+      "note": "RESOLVED: pivot captured alive; satchel opened; evidence publicly presented; Whiterun cell neutralized."
+    },
+    "companions_respect": {
+      "current": 4,
+      "max": 4,
+      "note": "RESOLVED: fought clean, led under pressure, hunted pivot, protected civilians; Companions bond strengthened."
+    },
+    "falkreath_wax_summons": {
+      "current": 4,
+      "max": 4,
+      "note": "COMPLETE: Forged Stag seal incident erupts in the Jarl's hall; Thalmor exposed; fallout is public."
+    },
+    "falkreath_deposition": {
+      "current": 4,
+      "max": 4,
+      "note": "THRESHOLD: Siddgeir removed from practical authority; Moot demanded; guard command shifting to Eltric's control."
+    },
+    "evidence_chain_secured": {
+      "current": 3,
+      "max": 3,
+      "note": "COMPLETE: Evidence bagged/marked; witness statements logged; riders dispatched to Whiterun and Windhelm."
+    },
+    "dead_mans_drink_cellar_raid": {
+      "current": 4,
+      "max": 4,
+      "note": "COMPLETE: Hidden Thalmor drop seized (cipher packet, ledger strip, filed coins); ambush neutralized; chain of custody established."
+    },
+
+    "dragonbreak_reality_frayed": {
+      "current": 0,
+      "max": 4,
+      "note": "RESET: Dragonbreak recoil paid; counter cleared; track the next fray event."
+    },
+
+    "nenya_break_or_bolt": {
+      "current": 4,
+      "max": 4,
+      "note": "RESOLVED: Nenya captured alive, bound, and transferred under witness to Falkreath dungeons."
+    },
+    "falkreath_moot_election": {
+      "current": 1,
+      "max": 4,
+      "note": "Moot called to elect the next Jarl of Falkreath. Fill = Jarl decided + legitimacy secured."
+    }
+  }
+}

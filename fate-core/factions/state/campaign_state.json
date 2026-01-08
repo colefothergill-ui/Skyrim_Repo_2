@@ -1,0 +1,37 @@
+{
+  "current_location": "Whiterun — Gatehouse (Inner)",
+  "startup": {
+    "start_point": "ACT_01_BATTLE_OF_WHITERUN",
+    "session_zero_mode": true,
+    "notes": "Begin at the module opening. Run Session Zero PC creation at the siege start before play proceeds."
+  },
+  "party": {
+    "alignment": "stormcloak",
+    "allies": [
+      "Ulfric Stormcloak",
+      "Galmar Stone-Fist",
+      "Ralof",
+      "Irileth",
+      "Farkas",
+      "Aela the Huntress",
+      "Balgruuf the Greater (conditional)"
+    ],
+    "enemies": [
+      "Thalmor handlers (gold-wax cell)",
+      "Legate Cipius (detained)",
+      "Imperial sympathizer network (pending arrests)"
+    ]
+  },
+  "major_flags": {
+    "whiterun_decided": false,
+    "proof_of_thalmor_manipulation_found": false,
+    "battle_of_whiterun_started": true,
+    "whiterun_avoided_massacre": true,
+    "gatehouse_duel_resolved": true
+  },
+  "holds": {
+    "Whiterun": {
+      "control": "contested"
+    }
+  }
+}

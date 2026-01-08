@@ -1,0 +1,24 @@
+---
+name: Notify Vercel Workflow
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  notify-vercel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Notify Vercel
+        uses: vercel/repository-dispatch/actions/status@v1
+        with:
+          name: "Vercel - tamriel-skyrim-repos-s2t8: lint"
+        env:
+          # Use a PAT with repo:status scope instead of default GITHUB_TOKEN
+          # to avoid "Resource not accessible by integration" error
+          GITHUB_TOKEN: ${{ secrets.VERCEL_STATUS_TOKEN }}
