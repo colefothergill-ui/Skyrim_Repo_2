@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "description": "Quest state flags for tracking campaign progression (module-start template)",
+    "updated": "2026-01-05"
+  },
+  "main_quest_flags": {
+    "helgen_escaped": true,
+    "bleak_falls_retrieved": false,
+    "dragonstone_delivered": false,
+    "whiterun_battle_started": true,
+    "whiterun_battle_complete": false,
+    "civil_war_joined": false,
+    "civil_war_side": null,
+    "thalmor_evidence_found": false,
+    "thalmor_evidence_revealed": false
+  },
+  "faction_quest_flags": {
+    "companions": {
+      "joined": false
+    },
+    "thieves_guild": {
+      "joined": false
+    },
+    "college_of_winterhold": {
+      "joined": false
+    },
+    "dark_brotherhood": {
+      "joined": false
+    }
+  }
+}

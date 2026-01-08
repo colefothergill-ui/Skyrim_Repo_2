@@ -1,0 +1,18 @@
+{
+  "current_act": 1,
+  "current_scene_id": "S0_CHARACTER_CREATION",
+  "current_hold": "Whiterun",
+  "current_location": "Whiterun — Battle of Whiterun (Staging)",
+  "start_point": "ACT_01_BATTLE_OF_WHITERUN",
+  "module_anchor": {
+    "module_id": "ACT_01_BATTLE_OF_WHITERUN",
+    "scene_id": "S0_CHARACTER_CREATION"
+  },
+  "focus_factions": [],
+  "last_log": "",
+  "on_track": {
+    "status": "unknown",
+    "last_checked": "",
+    "notes": ""
+  }
+}
