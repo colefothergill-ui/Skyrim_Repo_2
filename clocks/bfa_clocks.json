@@ -1,0 +1,72 @@
+{
+  "pc_clocks": {
+    "Suroe Dragonseal": {
+      "Dracon'Thor'reth — Hunger": {
+        "current": 4,
+        "max": 8,
+        "notes": "Ticks when exposed to heavy spell-saturation; fills trigger a major flare/compel event."
+      },
+      "Discipline of Taran'Zhu": {
+        "current": 3,
+        "max": 6,
+        "notes": "Ticks when Suroe chooses restraint, breath, or mercy under pressure."
+      },
+      "Whispers of the Canopy": {
+        "current": 4,
+        "max": 4,
+        "notes": "Kaldorei scouts spread intel; fills triggers a prepared counterplay/elite response."
+      },
+      "Rommath — Pragmatic Camaraderie": {
+        "current": 1,
+        "max": 6,
+        "notes": "Ticks when Suroe delivers clean results or shows political discretion; fills unlocks deeper cooperation."
+      },
+      "Hauldron — Tempering Respect": {
+        "current": 2,
+        "max": 8,
+        "notes": "Ticks when Suroe shows restraint and competence; fills creates lasting alliance leverage."
+      },
+      "Lor'themar — Quiet Trust": {
+        "current": 1,
+        "max": 6,
+        "notes": "Ticks when Suroe's actions help Quel'Thalas strategically without scandal; fills unlocks direct patronage."
+      },
+      "Taran'Zhu — Hard-Won Mentorship": {
+        "current": 2,
+        "max": 6,
+        "notes": "Ticks when Suroe embodies teachings under war pressure; fills unlocks a mastery boon."
+      }
+    }
+  },
+  "story_clocks": {
+    "Ashenvale — Counter-Scout Net Tightens": {
+      "current": 6,
+      "max": 6,
+      "notes": "Ticks when the Kaldorei adapt to your moves; fills triggers a coordinated trap/kill-box."
+    },
+    "Notoriety — The Crimson Siphoner": {
+      "current": 6,
+      "max": 6,
+      "notes": "Warden-Captain down; friendly-fire pivot; Moonlane Supernova witnessed/rumored. Fills = bounty + elite hunt team."
+    },
+    "Ashenvale — Nature’s Reprisal": {
+      "current": 4,
+      "max": 6,
+      "notes": "Ancient attention awakened; the forest shifts to active opposition. Fills = active pursuit + terrain hazards."
+    },
+    "Ashenvale Supply Road Ambush — Neutralized": {
+      "current": 4,
+      "max": 4
+    },
+    "Darkshore Border — Corridor Secured": {
+      "current": 2,
+      "max": 4,
+      "notes": "Represents the push from Ashenvale into Darkshore; ticks when chokepoints are cleared, scouts removed, captives taken, and the lane stays open for the Horde's main force. Fill = forward camps and the next campaign sequence unlocks."
+    },
+    "Warden Hunt Decree — Nets in the Dark": {
+      "current": 1,
+      "max": 6,
+      "notes": "Triggered by Notoriety + commander capture. Ticks as Wardens mobilize specialists (nets, bind-mages, owl-scouts, shadowstalkers). Fill = elite hunt team engages with kill-box support."
+    }
+  }
+}

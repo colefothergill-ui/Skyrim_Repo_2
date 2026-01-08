@@ -1,0 +1,27 @@
+# Session 04 — MOONLANE SUPERNOVA (2025-12-28)
+
+Ashenvale’s borderlands bled into Darkshore like a bruise spreading beneath skin—green giving way to soot-dark bark, salt-rot air, and the feeling that the forest itself had begun to listen with teeth. The rescue raid that came for the prisoners did not find a neat battlefield. It found a storm with a name.
+
+Suroe moved through the canopy like a rumor given hands. Where Sentinels expected lanes and sightlines, he gave them absence—mist that swallowed angles, crimson fog that behaved less like weather and more like intent. He let the Kaldorei see just enough to believe they could aim, then rewrote what “enough” meant. Moonlit arrows that should have pinned him instead struck bark, root, or the wrong silhouette—because the shroud did not merely conceal; it lied.
+
+When the Wardens arrived in force, they brought the kind of disciplined cruelty that makes battles feel like legal proceedings: anti-chi glyphs stitched into armor, druidic anchors sunk into the earth, archers nested above like a verdict waiting to be read. Their captain called him by a title the forest would remember—Crimson Siphoner—and offered him the honor of being taken alive. Suroe answered with doctrine older than their outrage, a grin split by something hungry. He did not ask permission to become a problem.
+
+He met the Warden-Captain inside her own grove-gate, where the root-wall and ward-lattice were meant to bind intruders into manageable shapes. He cracked the lattice with a spark of will and ripped the fight into the fog, where sound and instinct mattered more than formation. The Warden was not weak—she moved like a blade designed to sever channels and end spells mid-breath—but she was fighting something that refused to be handled cleanly. Each time she tried to catch him, he flowed away like water and returned like a striking serpent.
+
+The grove’s defenders learned a brutal truth in stages: the mist was not merely obscuration, but pressure—irritability and dread crawling under the skin, a hanging sense of presence that made even veteran Sentinels hesitate half a heartbeat too long. Suroe turned that half-beat into a weapon. He widened the fog’s gash, angled the moonlane, and let the canopy’s own archers fire into lies. Friendly fire stitched panic into discipline. Roots tightened and loosened without consent. The grove lost its sense of which way was safe.
+
+The Warden-Captain took hit after hit—cracked ribs under wardplate, her guard-seals compromised, her command aura splintering with each stumble—and still she tried to rally. In the end, it was her own line that finished her. Suroe heard the bowstrings, felt the volley coming through the slit in the shroud, and turned her body into geometry—one last, cruel correction to their aim. Arrows struck true. Their captain fell into the mud beneath the red storm, and the grove went momentarily silent with the shock of what it had done to itself.
+
+On the ground, the grove’s last functioning anchor—a druid elder, battered and breathing—became the hinge that decided whether the gate remained a trap. Suroe crouched over him like a creature borrowing a man’s skin, eyes burning with crimson steam, voice layered with something other. He spoke softly, and the softness made it worse: “Turn it off.”
+
+The elder did. Roots loosened. The choke-point unlatching was not a dramatic collapse; it was a quiet surrender of control, as if the forest briefly chose breath over pride. Suroe did not reward compliance with mercy. He took the elder anyway—dragging him against stone with unfamiliar roughness, stripping the fallen Warden of essentials and ward-gear, collecting valuables with the cold practicality of a raider who intends to be alive tomorrow.
+
+Then he climbed again, setting the captive beneath an oak on the upper vantage like bait, arms crossed, waiting. The remaining scraps arrived on cue—ragged Sentinels, a junior Warden, a star-marked druid trying to gather the broken pieces of command. They stepped into a kill lane they could not see, and the moonlight watched like it could not decide whether to bless or expose.
+
+Dracon’Thor’reth’s glow dimmed to an ember—impatient, resentful, starving for denial to end. And when the cluster formed, when the line finally presented itself as a single mouthful, the Seal surged. Suroe accepted it. He dropped from the cliff like a verdict and drew the storm into his lungs.
+
+Breath of Karma did not explode like fire. It flooded like poison in a river—mana turning acidic in the blood, wards stuttering into ash, formation collapsing into choking bodies and broken intent. The final defenders were taken out in a single overwhelming sweep, and the border lane fell quiet in the aftermath, cleared not by strategy but by a supernova of will.
+
+The cost came immediately. The Seal that had blazed at full charge burned down to nothing—an abrupt dimming under the tunic as if the dragon had spent itself and gone still. The afterburn scraped the mind raw; a thin, dangerous quiet settled in Suroe’s chest where hunger had been loud. And in that quiet, the forest answered at last. Somewhere deeper in the trees, an Ancient of War rose awake enough to watch—its attention patient, old, and unhurried.
+
+The lane was cleared. The prisoners and loot were secured. The moon still shone. And Ashenvale—wounded, listening, and no longer patient—had begun to remember a name.

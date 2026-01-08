@@ -1,0 +1,66 @@
+{
+  "campaign": "BFA",
+  "date": "2025-12-27",
+  "session": 1,
+  "scene": {
+    "name": "Fog over Ashenvale",
+    "aspects": [
+      "Listening Fog",
+      "Kaldorei Kill Lanes",
+      "War Tension in the Trees"
+    ],
+    "boosts": [],
+    "zone_notes": []
+  },
+  "pcs": {
+    "Suroe Dragonseal": {
+      "aspects": [
+        "Mana Addict Turned Martial Arts Master (Spellbreaker / Monk)",
+        "Scent of Sorcery, Hunger in the Blood (spell-saturation triggers Dracon'Thor'reth)",
+        "Taran’Zhu Taught Me What Was Wrong With Me (And How to Live Anyway)",
+        "The Dragonseal Mirror (They Compare Me to Ama’thar)",
+        "Honor in Ugly Work"
+      ],
+      "skills": {
+        "Fight": 4,
+        "Athletics": 3,
+        "Will": 3,
+        "Physique": 2,
+        "Notice": 2,
+        "Stealth": 2,
+        "Lore": 1,
+        "Investigate": 1,
+        "Provoke": 1,
+        "Rapport": 1
+      },
+      "stunts": [
+        "Flow Like Water — Redirecting Spiral: Defend vs. melee with Athletics at +2 when able to move; on succeed with style, may redirect up to 2 shifts onto another enemy in zone (they may defend).",
+        "Sha’do-Pan Parkour: Once per exchange, traverse up to 2 zones / secure high ground without an Overcome if terrain permits; if blocked, Overcome with Athletics at +2; gain a Boost when ending in advantageous position.",
+        "Mana-Quenching Palm: Once per scene, replace Fight attack stress with Create Advantage Drained / Interrupted Casting with one free invoke on a valid target.",
+        "Breath of Yu’lon: Once per exchange, impose -2 on an attacker you can perceive for this exchange.",
+        "Extra Technique — Flurry of Blows: Once per exchange, Fight Attack up to 3 targets in zone with one roll; 2nd/3rd targets get +1 to defend."
+      ],
+      "fate_points": 2,
+      "refresh": 2,
+      "stress": {
+        "physical": [false, false, false],
+        "mental": [false, false, false, false]
+      },
+      "consequences": {
+        "mild": null,
+        "moderate": null,
+        "severe": null
+      },
+      "notes": "Spell-saturation can trigger Trouble; prefer Athletics to Defend when moving/evading and Fight to Defend when standing ground."
+    }
+  },
+  "clocks_refs": [
+    "clocks/bfa_clocks.json"
+  ],
+  "log_hint": "logs/2025-12-24_session-01_SEAL-OF-THE-DRAGON.md",
+  "house_rules": {
+    "conditions": true,
+    "clocks": true,
+    "scale": true
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "pc": "Suroe Dragonseal",
+  "clocks": [
+    {
+      "name": "Dracon’Thor’reth — Hunger",
+      "current": 4,
+      "max": 8,
+      "type": "personal",
+      "ticks_on": [
+        "Extended fasting, deprivation, or denial of magical intake",
+        "Using fel/arcane as a crutch instead of discipline",
+        "Severe emotional provocation while depleted"
+      ],
+      "clears_or_reduces_on": [
+        "Meditation/chi practice under pressure",
+        "Choosing restraint when a brutal victory is available",
+        "Healthy, deliberate mana management instead of binge/withdrawal"
+      ],
+      "fills_trigger": "The seal flares uncontrollably; you take a major compelled action as the dragon-hunger drives behavior."
+    },
+    {
+      "name": "Discipline of Taran’Zhu",
+      "current": 3,
+      "max": 6,
+      "type": "personal",
+      "ticks_on": [
+        "Restraint under provocation",
+        "Non-lethal takedowns when lethal would be easier",
+        "Using chi/breath to master the seal rather than feed it"
+      ],
+      "fills_trigger": "You gain a lasting benefit (new stunt, aspect, or a once-per-scene free invoke) representing true mastery of inner stillness."
+    },
+    {
+      "name": "Dracon’o Belore — Relic Reclaimed",
+      "current": 0,
+      "max": 6,
+      "type": "legacy",
+      "ticks_on": [
+        "Recovering Dragonseal relic fragments",
+        "Defending the relic from theft/corruption",
+        "Unlocking a new inscription or technique tied to the relic"
+      ],
+      "fills_trigger": "The relic awakens fully; it becomes a defining Extra with a new unlocked capability and narrative obligations."
+    },
+    {
+      "name": "House Dragonseal — Restoration",
+      "current": 3,
+      "max": 8,
+      "type": "legacy",
+      "ticks_on": [
+        "Public or military victories that redeem the family name",
+        "Protecting innocents/Quel’thalas at cost to self",
+        "Recovering lost Dragonseal records, heirs, or holdings"
+      ],
+      "clears_or_reduces_on": [
+        "Scandal, cruelty, or hunger-driven incidents",
+        "Political compromise that stains the house’s rebuilt trust"
+      ],
+      "fills_trigger": "Dragonseal becomes a respected minor house again, with real political leverage and obligations."
+    },
+    {
+      "name": "Rommath — Pragmatic Alliance",
+      "current": 1,
+      "max": 6,
+      "type": "relationship",
+      "ticks_on": [
+        "Delivering results that advance Rommath’s political/military goals",
+        "Showing discretion with dangerous knowledge",
+        "Solving a threat without creating public scandal"
+      ],
+      "fills_trigger": "Rommath offers direct patronage: a boon, a new resource channel, or a high-stakes mission with insider support."
+    },
+    {
+      "name": "Captain Aethrya Moonshadow — Bitter Respect",
+      "current": 5,
+      "max": 6,
+      "type": "relationship",
+      "ticks_on": [
+        "Beating her cleanly in the field",
+        "Demonstrating mastery over her ward/lattice doctrine",
+        "Sparing her people when you could have butchered them"
+      ],
+      "fills_trigger": "Aethrya changes her approach to you (rival-acknowledgment): she offers terms, knowledge, or a personal bargain rather than blind hatred."
+    },
+    {
+      "name": "Ashenvale — Retrieval Raid Mobilizes",
+      "current": 5,
+      "max": 6,
+      "type": "story",
+      "ticks_on": [
+        "Capturing Kaldorei assets (officers, elders, relics)",
+        "Leaving obvious red-chi/ward residue trails",
+        "Repeated defeats humiliating the canopy screen"
+      ],
+      "fills_trigger": "A dedicated retrieval strike launches: elite Wardens, bind-mages, and shadowstalkers attempt a coordinated rescue/kill op."
+    },
+    {
+      "name": "Whispers of the Canopy",
+      "current": 4,
+      "max": 4,
+      "type": "story",
+      "ticks_on": [
+        "Repeated signature techniques witnessed",
+        "Survivors spreading consistent descriptions",
+        "Leaving identifiable evidence (weapon marks, residue, trophies)"
+      ],
+      "fills_trigger": "Kaldorei intel solidifies; they deploy a prepared counterplay keyed to your patterns."
+    },
+    {
+      "name": "Aethrya — Blood Debt Oath",
+      "current": 3,
+      "max": 6,
+      "type": "relationship",
+      "ticks_on": [
+        "Humiliation in front of her people",
+        "Capture / restraint / forced retreat",
+        "Wounding her while denying her a clean death"
+      ],
+      "fills_trigger": "Aethrya commits to a personal vendetta protocol (or, alternatively, a desperate bargain) that reshapes the arc."
+    },
+    {
+      "name": "Notoriety — The Crimson Siphoner",
+      "current": 6,
+      "max": 6,
+      "type": "story",
+      "ticks_on": [
+        "Public battlefield displays",
+        "Large-scale casualties attributed to you",
+        "Elite enemies wounded/captured with clear signature technique"
+      ],
+      "fills_trigger": "A formal bounty + elite hunt response is activated."
+    },
+    {
+      "name": "Ashenvale — Nature’s Reprisal",
+      "current": 4,
+      "max": 6,
+      "type": "story",
+      "ticks_on": [
+        "Blood spilled deep in sacred ground",
+        "Ward-geometry torn apart and left to fester",
+        "Druidic assets harmed or taken"
+      ],
+      "fills_trigger": "The forest actively hunts back: terrain hazards, awakened ancients, and nature-driven complications escalate."
+    }
+  ]
+}
