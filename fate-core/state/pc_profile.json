@@ -1,11 +1,11 @@
 {
   "meta": {
     "description": "PC creation gate. If created=false, the GM MUST run Session Zero before play proceeds.",
-    "updated": "2026-01-06",
-    "patch": "Eltric: Milestone + Artifact + Race/Stone"
+    "updated": "2026-01-08",
+    "patch": "Reset to Session Zero"
   },
-  "created": true,
-  "active_pc_file": "pcs/ELTRIC_STAGBORNE.md",
+  "created": false,
+  "active_pc_file": "pcs/PC_MAIN.md",
   "required_fields": [
     "name",
     "high_concept",
@@ -15,44 +15,5 @@
     "skills_or_approaches",
     "stunt_1"
   ],
-  "pc": {
-    "name": "Eltric Stagborne",
-    "high_concept": "Last of the Noble Stagborne Clan - Champion of Ulfric",
-    "trouble": "The Way of the Voice",
-    "other_aspects": [
-      "Wielder of Elder Elk's Edge",
-      "The Stag of the Stormcloaks",
-      "Sworn to Kyne, Bound to Falkreath"
-    ],
-    "affiliation_primary": "stormcloaks",
-    "affiliation_secondary": "way_of_the_voice",
-    "starting_role": "Riding in to meet Ulfric, Galmar, and Ralof at the Whiterun staging line; front-line champion and disciplined Thu'um support.",
-    "skills_or_approaches": [
-      "Fight +5",
-      "Will +4",
-      "Physique +3",
-      "Resources +2",
-      "Contacts +2",
-      "Rapport +2",
-      "Athletics +1",
-      "Lore +1",
-      "Skulk +1",
-      "Drive/Ride +1"
-    ],
-    "stunts": [
-      "Thu'um Prodigy: +2 when using Will for Shouts (4dF).",
-      "Nobleman's Diplomacy: +2 Rapport with Jarls/Housecarls/Stewards/aristocratic Nords in formal contexts.",
-      "Stag-Rush CHARGE: Once per scene move two zones; gain +2 Fight or +2 Physique (declare before moving).",
-      "The Stagborne Estate: +2 when using Resources to Overcome to organize Skyrim's aristocratic militia, stewards, and political zeitgeist in Stormcloak-controlled territory."
-    ],
-    "extras": [
-      "The Thu'um: Unrelenting Force, Kyne's Peace, Disarm",
-      "Elder Elk's Edge (Artifact Axe) — see modules/extras/ELDER_ELK_EDGE_ARTIFACT.md"
-    ],
-    "notes": "Faction: Stormcloak (Champion of the War). Background: former monk of High Hrothgar; vows strained by Falkreath's blood debt.\n\nMAJOR MILESTONE: Skill cap raised to +5. Fight +5. Will +4. High Concept rewritten; earned title Champion of Ulfric after Whiterun Gatehouse.",
-    "race": "Nord",
-    "racial_trait": "Children of the Snow, Voices of War (+2 Will vs cold/fear/intimidation; 1/session use Will for Fight/Physique; Thu'um creates Echo of Kyne boost)",
-    "standing_stone": "Warrior Stone (+1 physical Overcome/CreateAdvantage; 1/session +2 Warrior’s Surge)",
-    "active_pc_file": "pcs/ELTRIC_STAGBORNE.md"
-  }
+  "pc": {}
 }

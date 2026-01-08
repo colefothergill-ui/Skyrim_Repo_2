@@ -168,10 +168,10 @@ bash scripts/audit_vault.sh
 ## 🎯 Current Campaign Status
 
 **Act:** 1 - Battle of Whiterun  
-**Scene:** S3_GATEHOUSE_PURGE_POST_DUEL  
-**Location:** Whiterun — Gatehouse (Inner)  
-**PC:** Eltric Stagborne (Stormcloak Champion)  
-**Status:** ✅ Ready for play
+**Scene:** S0_CHARACTER_CREATION  
+**Location:** Whiterun — Battle of Whiterun (Staging)  
+**PC:** [To be created in Session Zero]  
+**Status:** ✅ Ready for Session Zero
 
 ---
 

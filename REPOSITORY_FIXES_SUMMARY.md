@@ -100,13 +100,12 @@ All checks passed:
 
 ## What Was NOT Changed
 
-The following were intentionally left unchanged as they represent valid campaign state:
+The following were intentionally left unchanged as they represent repository structure and content:
 
-- **Campaign progression**: The campaign has progressed beyond Session Zero (scene is S3_GATEHOUSE_PURGE_POST_DUEL), which is correct
-- **PC creation**: Character "Eltric Stagborne" is properly created
 - **Folder structure**: No restructuring of the directory tree
 - **Core module content**: No changes to campaign narrative or mechanics
-- **Clocks and flags**: Campaign progress preserved
+- **Scripts and tools**: All tooling and automation remain intact
+- **Templates and documentation**: All reference materials preserved
 
 ---
 

@@ -24,4 +24,4 @@
 - **Act V — Throne-Claim:** Once per session, you may force a conflict into formal terms (challenge/duel/parley) by creating **By Right of the Stag** with 1 free invoke, if the fiction supports it.
 
 ## GM Notes
-Compel the Trouble when Eltric is tempted to strike from ambush, execute prisoners, or win via terror instead of honor.
+Compel the Trouble when the wielder is tempted to strike from ambush, execute prisoners, or win via terror instead of honor.
