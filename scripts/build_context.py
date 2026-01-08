@@ -91,14 +91,14 @@ def main() -> None:
     created = bool(pc.get("created", False))
     print("\n## Session Zero Gate")
     if not created:
-        print("â— STOP â€” PC not created yet.")
+        print(" -  STOP  PC not created yet.")
         req = (pc.get("required_fields") or defaults.get("pc_creation_gate", {}).get("required_fields") or [])
         if req:
             print("- Required fields:", ", ".join(req))
         print("- See: tools/SESSION_ZERO_GATE.md")
         print("- Active PC sheet:", pc.get("active_pc_file", "pcs/PC_MAIN.md"))
     else:
-        print("âœ… PC created.")
+        print(" PC created.")
         pcdata = pc.get("pc", {})
         if pcdata:
             print(f"- Name: {pcdata.get('name')}")
