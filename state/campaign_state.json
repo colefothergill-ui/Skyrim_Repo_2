@@ -13,7 +13,9 @@
   "major_flags": {
     "whiterun_decided": false,
     "proof_of_thalmor_manipulation_found": false,
-    "battle_of_whiterun_started": true
+    "battle_of_whiterun_started": true,
+    "galmar_stone_fist_killed": true,
+    "rumor_vampire_whiterun_wall": true
   },
   "holds": {
     "Whiterun": {

@@ -6,7 +6,7 @@
   },
   "master_clocks": {
     "civil_war_endgame": {
-      "current": 0,
+      "current": 2,
       "max": 8,
       "note": "Ticks when holds fall or decisive victories happen."
     },
@@ -18,7 +18,7 @@
   },
   "act_clocks": {
     "act_01_whiterun_outcome": {
-      "current": 0,
+      "current": 2,
       "max": 6,
       "note": "Tracks Whiterun battle progression and outcome."
     },
