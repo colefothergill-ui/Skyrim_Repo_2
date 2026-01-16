@@ -1,14 +1,84 @@
-# Agran Moorcroft — Lore Reference
+# Agran Moorcroft (The Minstrel) — Lore Reference
 
-## Appearance (quick)
-Handsome Breton presenting late-20s: dark wavy hair, five-o’clock shadow, pale skin, icy-blue eyes that catch light like moon on glass. Academic maroon-and-gold robes layered with practical field wraps and boots. Warm, charming demeanor that occasionally slips into soldier-stillness.
+## Appearance
+Agran Moorcroft looks like a court ball decided to grow fangs: shoulder-length crimson hair, golden predatory eyes, red-and-gold bardic armor with an Imperial dragon motif, lute/war-drum performer's poise, soldier's presence, and a smile that's charming until it isn't.
+
+He carries himself with the polish of a trained performer and the discipline of a soldier. His bardic armor is distinctive—crimson and gold leather with Imperial dragon accents, practical enough for combat but theatrical enough for a stage. When he performs, whether on his war drum or lute, there's a magnetic quality that draws attention. When he fights, that same magnetism becomes predatory.
+
+His golden eyes catch light in ways that make observers uncomfortable if they look too long. Those who know what to look for might notice the supernatural stillness when he's at rest, or the too-fluid grace when he moves with purpose.
 
 ## Aspect Compel Cheat Sheet
-- **Master Moorcroft of Alteration — Commander Peryn the Undying:** old rank habits, old enemies, war instincts, “undying” rumor trouble.
-- **Secret of My Sanguine:** hunger/exposure, stigma, moral conflict, forced secrecy.
-- **Master Agran — Every Student’s Favorite:** interruptions, expectations, jealousy, visibility risk.
-- **Lord Peryn Ashhart, Raised by “The Order”:** vampyr cabal plots, Imperial entanglement, past lovers/rivals.
-- **Make Winterhold Eclipse the Imperial City’s “Blowhards”:** pride, risky demonstrations, political bait.
+- **The Bloody Bard Quester of Solitude:** You perform extreme heroism worthy of ballads, even when it's tactically unsound; your reputation precedes you and draws unwanted attention; people expect grand gestures from you.
+- **The Secret of my Sanguine:** Hunger strikes at the worst moment; exposure risk in public settings; must maintain the mortal façade; anti-vampire zealots are a constant threat; "just one more feeding" temptations.
+- **Bard's College Graduate & Honorable Imperial Soldier:** Your reputation for honor forces you into situations where pragmatism would be wiser; students or civilians expect your help; your dual identity creates scheduling conflicts or contradictions.
+- **Sybille Stentor Is the Only One Who Knows:** If Sybille is threatened, your secret is threatened; you must maintain this relationship even when inconvenient; her advice might conflict with your desires.
+- **Hadvar's Shield-Brother in Song and Steel:** Hadvar's presence puts your secret at risk through proximity; his trust in you creates guilt when you must deceive him; protecting him might expose your abilities.
 
-## Backstory (summary)
-Born late Second Era as Lord Peryn Ashhart of Daggerfall, battlemage prodigy with a gift for Alteration and a soldier’s discipline. Rose to Commander in the Legion during Septim consolidation campaigns. Abducted and turned by a Cyrodilic vampyr cabal (“The Order”) via betrayal by an Imperial mage he courted—intended as a proxy to influence the new empire. His “undying” legend spread. Nearly destroyed by a famed vampire hunter, escaped with help from the same Imperial woman. Fled to Skyrim, reinvented himself as Agran Moorcroft, and became a long-lived fixture of the College of Winterhold—changing names over generations, a one-man bloodline, seeking redemption through teaching and service.
+## Backstory Summary
+Agran Moorcroft is talented, heroic, and handsome—and now tainted. A blood-sucking fiend turned him and sent him off to war, eclipsed by a curse he never asked for.
+
+He graduated early from the Bard's College in Solitude, a prodigy with voice, instrument, and blade. His "College of Swords" training made him as deadly with a dueling blade as he was charming with a lute. The Imperial Legion recognized his value immediately: a bard who could fight, a soldier who could inspire. He became a morale officer, rallying troops with song and leading from the front with steel.
+
+Then came the turning. The details are his alone to carry, but the result was clear: Sanguinar Vampirism, a potent new strain that made him faster, stronger, and harder to hide. The hunger is constant. The changes are undeniable. The control is tenuous.
+
+Only **Sybille Stentor**, court wizard of Solitude, knows his secret. She recognized the signs, confronted him privately, and became his lifeline—advisor, confidant, and the keeper of a secret that would destroy him if revealed.
+
+Everyone else sees "mortal Agran": the dashing bard-soldier, the Imperial hero, the womanizer with a golden smile and a war drum that can turn the tide of battle.
+
+His personal tagline, never spoken as an Aspect but whispered in his own mind: **"I Refuse to Be Eclipsed."** He will not let this curse define him. He will be the hero of his own ballad, fangs and all.
+
+## Compel Fodder & Hooks
+- **Public attention:** His performances draw crowds; crowds draw scrutiny. Hunger doesn't care about applause.
+- **Hunger/exposure risk:** The longer he goes without feeding, the harder it is to maintain control. Red eyes, fangs slipping, unnatural speed in the wrong moment.
+- **Overreacting to disrespect:** The vampire blood makes him easily offended. Slights that a mortal would ignore become provocations he can't let pass.
+- **Power vs. secrecy:** His vampiric abilities could solve problems instantly, but using them risks exposure.
+- **Heroic protection:** He protects civilians even when tactically dumb, because that's what the hero in the ballad would do.
+- **Seduction temptation:** His Vampire Seduction makes charm and manipulation dangerously easy. The line between "bard's charisma" and "supernatural compulsion" blurs.
+- **Taking unnecessary risks:** Proving he's "not just a vampire" means proving he's still brave, still honorable, still human—even if it gets him killed.
+
+## Relationships
+
+### Hadvar of Solitude
+**Relationship:** Shield-brother, Legion comrade (does NOT know the secret)
+
+Hadvar and Agran trained together during Agran's time with the Imperial Legion routed through Solitude. Hadvar saw Agran's performances at the Bard's College, watched him rally troops with song, and fought beside him in skirmishes along Skyrim's roads.
+
+They are "shield-brothers"—the kind of bond forged in shared danger and mutual respect. Hadvar trusts Agran's honor completely. He vouches for him publicly, which is both protection (Hadvar's word carries weight) and risk (Hadvar's attention means scrutiny).
+
+Hadvar does NOT know Agran is a vampire. If he found out, the betrayal would be profound. Agran knows this, which makes every interaction with Hadvar a tightrope walk between truth and necessary deception.
+
+**Compel opportunities:**
+- Hadvar asks Agran to accompany him on a mission during the day, when sunlight would be inconvenient.
+- Hadvar's trust puts Agran in situations where using vampiric powers would be noticed.
+- Protecting Hadvar from danger might require revealing the truth.
+- Hadvar begins to notice inconsistencies and asks uncomfortable questions.
+
+### Sybille Stentor
+**Relationship:** Confidant, the ONLY one who knows (court wizard of Solitude)
+
+Sybille Stentor is Agran's lifeline. She's a powerful mage, pragmatic and secretive, with her own reasons for understanding the shadows. When she recognized Agran's condition, she didn't flinch—she offered guidance.
+
+She advises him on managing hunger, avoiding exposure, and navigating the political dangers of Solitude's court. She's not warm, but she's reliable. She keeps his secret because it serves her interests, and because—perhaps—she sees something worth preserving in him.
+
+Agran trusts her because he has no choice. She's the only person in Skyrim who knows the truth and hasn't tried to kill him for it.
+
+**Compel opportunities:**
+- Sybille asks for a favor that conflicts with Agran's honor or Legion duties.
+- Sybille is threatened, putting Agran's secret at risk.
+- Sybille's advice conflicts with Agran's desire to be heroic.
+- Someone begins investigating Sybille, which could expose Agran by proximity.
+
+## Mechanical Notes
+**Race:** Breton (Magic-resilient, Arcane politics compel)  
+**Standing Stone:** The Lord Stone (Reduce consequence severity, "feel invincible" compel)  
+**Extras:** Sanguinar Vampirism (Supernatural Speed, Strength, Seduction; Fire Vulnerability)  
+**Skills:** Fight +4, Rapport/Craft +3, Physique/Will/Provoke +2  
+**Stunts:** Rallying Cry, Bard's College Alumni, College of Swords
+
+**Refresh spent:** 1 (on Sanguinar Vampirism extra)
+
+**Inventory:**
+- Waycrest War Drum (signature instrument)
+- Lute (performance/social tool)
+- Imperial Soldier's Uniform (Leather, red/gold with dragon motif)
+- Dueling blade (standard weapon, College of Swords trained)
