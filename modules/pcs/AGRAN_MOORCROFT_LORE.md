@@ -68,6 +68,61 @@ Agran trusts her because he has no choice. She's the only person in Skyrim who k
 - Sybille's advice conflicts with Agran's desire to be heroic.
 - Someone begins investigating Sybille, which could expose Agran by proximity.
 
+## Unknown Sire / Bloodline Mystery
+Agran does NOT know who turned him. His bloodline is unknown, a core mystery that haunts him and threads through the campaign.
+
+**Sybille's Deductions:**
+- Sybille Stentor has told Agran she can deduce the sire was "OLD" — ancient, experienced, and the turning was intentional, not accidental.
+- She believes the sire is most likely **Breton** or **Nordic**, with a small chance Imperial.
+- The sire is "almost certainly female."
+
+**Campaign Thread:**
+This mystery is a core campaign thread. Important feeds (on powerful or significant targets) can unlock **blood echoes** — sensory flashes and clues about the sire's identity, motives, and connection to Agran.
+
+## Sanguinar Progression: Blood Potency & Blood Revelation
+Agran's vampiric power grows through significant feeding, tracked via a progression clock tied to his bloodline mystery.
+
+**Progression Clock:**
+- **Blood Potency / Blood Revelation:** 2/6 (current state)
+- **Minor feed** (named but not major NPC): +1 tick
+- **Major feed** (important named NPC, faction leader, etc.): +2 ticks
+
+**At 6/6 (Full Clock):**
+- Unlock a **Sanguinar Upgrade:** either a new stunt OR a permanent boon (upgrade to existing vampire abilities, extra 1/scene use, reduced drawback, etc.)
+- Gain a **MAJOR sire clue** — a "Blood Echo / Revelation" that advances the bloodline mystery
+
+**Immediate Scene Payoff:**
+Feeding on a notable target can **quiet Hunger Rising for the scene** and either:
+- Grant a Boost: "Sated Predator"
+- OR clear a stress box (player's choice per scene)
+
+**Current Progress:**
+- **Blood Potency/Revelation: 2/6**
+- **Source:** Major feed on Galmar Stone-Fist (+2 ticks)
+- **Blood Echo #1:**
+  - Sensory flash: a candlelit hall (dark wood, colder stone)
+  - A signet ring motif: "a crescent over a tower" (or tower piercing crescent)
+  - A voice line: *"Good. Let them watch you win."*
+
+## Expanded Backstory (Canon)
+The following details are now established canon for Agran Moorcroft:
+
+1. **Born in Rivenspire (High Rock):** Agran's homeland is the northwestern region of High Rock, known for political intrigue and noble houses.
+
+2. **Breton parents, Imperial loyalists:** Born to Breton parents who unusually and vehemently supported the Empire, believing it to be the solution to High Rock's divisions.
+
+3. **Nobility sacrificed for Empire:** His parents gave up their nobility within Rivenspire to serve the Empire directly, a controversial choice that shaped Agran's upbringing.
+
+4. **Military upbringing:** This explains Agran's discipline, tactical familiarity, and duelist motif. He was raised in a household that valued martial prowess alongside cultural refinement.
+
+5. **Musical prodigy, House Ravenwatch connection:** Agran was found to be a musical prodigy and was nurtured and mentored by the noble vampire-aligned **House Ravenwatch** in High Rock.
+
+6. **Bard's College via Ravenwatch support:** With Ravenwatch help and endorsement, Agran left High Rock for Solitude to attend the Bard's College, where he excelled.
+
+7. **Obsession with heroic legacy:** Agran is obsessed with stories, ballads, and heroism. He wants to be like **Hjalti (Talos)**, and Agran believes Talos was Breton — a claim that fuels both his ambition and his identity.
+
+8. **Grand ambition:** His BIG GOAL is to become the bard that ballads are written **for**, not written **by**. He wants to unite Skyrim first, then return to unite High Rock, becoming a legendary figure in his own right.
+
 ## Mechanical Notes
 **Race:** Breton (Magic-resilient, Arcane politics compel)  
 **Standing Stone:** The Lord Stone (Reduce consequence severity, "feel invincible" compel)  

@@ -68,6 +68,23 @@
       "Imperial Soldier's Uniform (Leather)",
       "Dueling blade",
       "Lute"
+    ],
+    "clocks": {
+      "blood_potency": {
+        "current": 2,
+        "max": 6
+      },
+      "blood_revelation": {
+        "current": 2,
+        "max": 6
+      }
+    },
+    "blood_echoes": [
+      {
+        "id": 1,
+        "trigger": "Major feed: Galmar Stone-Fist",
+        "clue": "candlelit hall; signet ring (crescent over tower); voice: 'Good. Let them watch you win.'"
+      }
     ]
   }
 }
