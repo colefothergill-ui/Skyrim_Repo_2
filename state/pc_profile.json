@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "PC creation gate. If created=false, the GM MUST run Session Zero before play proceeds.",
-    "updated": "2026-01-08",
-    "patch": "Reset to Session Zero"
+    "updated": "2026-01-16",
+    "patch": "Agran Moorcroft (The Minstrel) - Canonical PC"
   },
   "created": true,
   "active_pc_file": "pcs/PC_MAIN.md",
@@ -15,5 +15,59 @@
     "skills_or_approaches",
     "stunt_1"
   ],
-  "pc": {}
+  "pc": {
+    "name": "Agran Moorcroft",
+    "alias": "The Minstrel",
+    "race": "Breton",
+    "standing_stone": "The Lord Stone",
+    "high_concept": "The Bloody Bard Quester of Solitude.",
+    "trouble": "The Secret of my Sanguine.",
+    "affiliation_primary": "imperials",
+    "affiliation_secondary": "Bard's College",
+    "starting_role": "Imperial Legion Bard-Soldier / Morale Officer",
+    "aspects": [
+      "The Bloody Bard Quester of Solitude.",
+      "The Secret of my Sanguine.",
+      "Bard's College Graduate & Honorable Imperial Soldier.",
+      "Sybille Stentor Is the Only One Who Knows.",
+      "Hadvar's Shield-Brother in Song and Steel."
+    ],
+    "skills_or_approaches": {
+      "great_4": ["Fight"],
+      "good_3": ["Rapport", "Craft"],
+      "fair_2": ["Physique", "Will", "Provoke"],
+      "average_1": ["Deceit", "Athletics", "Contacts", "Empathy"]
+    },
+    "stunt_1": "Rallying Cry: Once per scene he may Create Advantage, and gain a +2 to his Rapport 4dF rolls to inspire Imperial Soldier's to push back against their adversaries, and create a Scene Aspect 'Rallied' (2 free invokes for himself or his fellow soldiers). On SWS his allies gain an additional +2 to their first Fight 4dF this Scene.",
+    "stunt_2": "Bard's College Alumni: When playing his War Drum, or Lute, he receives a +2 on Craft 4dF rolls, or a +2 to Rapport Rolls made when singing.",
+    "stunt_3": "College of Swords: When fighting against only one opponent, he receives +2 to Defense Rolls he makes with Fight. On SWS he may forgo the Boost to Create Advantage, and attempt to impose a Scene Aspect on his opposition 'Disarmed', 'Feinting blow', 'Fancy Foot Work'.",
+    "stunts": [
+      "Rallying Cry",
+      "Bard's College Alumni",
+      "College of Swords"
+    ],
+    "extras": [
+      "Breton (racial)",
+      "The Lord Stone",
+      "Vampire (Sanguinar Vampirism)"
+    ],
+    "relationships": [
+      {
+        "name": "Hadvar of Solitude",
+        "relationship": "Shield-brother, Legion comrade",
+        "knows_secret": false
+      },
+      {
+        "name": "Sybille Stentor",
+        "relationship": "Confidant, only one who knows his vampirism",
+        "knows_secret": true
+      }
+    ],
+    "inventory": [
+      "Waycrest War Drum",
+      "Imperial Soldier's Uniform (Leather)",
+      "Dueling blade",
+      "Lute"
+    ]
+  }
 }
