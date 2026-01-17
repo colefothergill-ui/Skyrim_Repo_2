@@ -18,7 +18,7 @@
   },
   "act_clocks": {
     "act_01_whiterun_outcome": {
-      "current": 4,
+      "current": 6,
       "max": 6,
       "note": "Tracks Whiterun battle progression and outcome."
     },
@@ -78,7 +78,7 @@
   "personal_clocks": {},
   "clocks": {
     "dragonbreak_reality_frayed": {
-      "current": 0,
+      "current": 2,
       "max": 4,
       "note": "Track Dragonbreak recoil and reality fraying events."
     }
