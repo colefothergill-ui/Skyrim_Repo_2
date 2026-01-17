@@ -18,7 +18,7 @@
   },
   "act_clocks": {
     "act_01_whiterun_outcome": {
-      "current": 2,
+      "current": 4,
       "max": 6,
       "note": "Tracks Whiterun battle progression and outcome."
     },
