@@ -8,9 +8,9 @@
     "bleak_falls_retrieved": false,
     "dragonstone_delivered": false,
     "whiterun_battle_started": true,
-    "whiterun_battle_complete": false,
-    "civil_war_joined": false,
-    "civil_war_side": null,
+    "whiterun_battle_complete": true,
+    "civil_war_joined": true,
+    "civil_war_side": "imperial",
     "thalmor_evidence_found": false,
     "thalmor_evidence_revealed": false
   },
