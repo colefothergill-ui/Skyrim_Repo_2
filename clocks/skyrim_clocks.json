@@ -75,7 +75,43 @@
       "note": "Side Plot C — covert operations escalating into Act V."
     }
   },
-  "personal_clocks": {},
+  "personal_clocks": {
+    "agran_legion_authority": {
+      "current": 2,
+      "max": 6,
+      "note": "Brevet Praefect authority in practice. Tick when Agran successfully commands units or gets recognized by officers."
+    },
+    "agran_whiterun_renown": {
+      "current": 4,
+      "max": 6,
+      "note": "Public reputation in Whiterun. Tick on public victories, speeches, visible heroics; can create easier social leverage when high."
+    },
+    "agran_vampire_suspicion_whiterun": {
+      "current": 2,
+      "max": 6,
+      "note": "How close Whiterun is to connecting the dots on Agran's Sanguine secret. Tick on feeding evidence, odd behavior, witnesses."
+    },
+    "agran_thalmor_attention": {
+      "current": 1,
+      "max": 6,
+      "note": "How much the Thalmor/third-party watchers notice Agran. Tick when you seize evidence, expose schemes, or become a political problem."
+    },
+    "agran_crescent_signet_mystery": {
+      "current": 1,
+      "max": 4,
+      "note": "Progress uncovering the 'crescent over tower' signet/ring faction and its purpose."
+    },
+    "trust_hadvar": {
+      "current": 3,
+      "max": 4,
+      "note": "Hadvar's trust and willingness to go to the mat for Agran."
+    },
+    "trust_lydia": {
+      "current": 1,
+      "max": 4,
+      "note": "Lydia's respect/loyalty toward Agran (fills when treated as a valued ally, not a servant)."
+    }
+  },
   "clocks": {
     "dragonbreak_reality_frayed": {
       "current": 2,
