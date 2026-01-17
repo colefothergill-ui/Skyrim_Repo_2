@@ -127,13 +127,27 @@ The following details are now established canon for Agran Moorcroft:
 **Race:** Breton (Magic-resilient, Arcane politics compel)  
 **Standing Stone:** The Lord Stone (Reduce consequence severity, "feel invincible" compel)  
 **Extras:** Sanguinar Vampirism (Supernatural Speed, Strength, Seduction; Fire Vulnerability)  
-**Skills:** Fight +4, Rapport/Craft +3, Physique/Will/Provoke +2  
+**Skills:** Fight +4, Rapport/Craft +3, Physique/Will/Provoke +2, Deceit/Athletics/Contacts/Empathy/Lore +1  
 **Stunts:** Rallying Cry, Bard's College Alumni, College of Swords
 
-**Refresh spent:** 1 (on Sanguinar Vampirism extra)
+**Refresh spent:** 2 (1 on Sanguinar Vampirism extra, 1 on Brevet Praefect of the Imperial Legion extra)
 
 **Inventory:**
 - Waycrest War Drum (signature instrument)
 - Lute (performance/social tool)
 - Imperial Soldier's Uniform (Leather, red/gold with dragon motif)
 - Dueling blade (standard weapon, College of Swords trained)
+
+## Extras / Rank
+
+### Extra (Cost 1 Refresh): Brevet Praefect of the Imperial Legion
+**Aspect/Permission:** Brevet Praefect of the Imperial Legion
+
+Agran has acting battlefield authority to issue orders and coordinate small units of Imperial Legionnaires / allied Whiterun guards when chain-of-command plausibly allows it.
+
+**Stunt: Legionnaire Tactician**
+Because Agran's Bard's College education, High Rock noble mentoring, and Legion experience translate strategy into action, once per scene he gains +2 when he uses Craft to Create an Advantage or Overcome by commanding troop movement, setting formations, establishing kill-zones, directing engineering/fortification work, or coordinating squads.
+
+On a Success with Style, choose ONE additional payoff (instead of the usual boost):
+1. **Tactical Edge:** Place a plausible situational aspect on the enemy or battlefield (e.g., "Outflanked," "Pinned," "Broken Formation," "Kill-Zone Exposed") with 1 free invoke.
+2. **Follow-Through Orders:** Immediately make a second Craft roll (no +2 bonus from this stunt) to issue follow-up orders to a different group as part of the same moment.

@@ -21,7 +21,7 @@ Agran Moorcroft looks like a court ball decided to grow fangs: shoulder-length c
 - **+4:** Fight
 - **+3:** Rapport, Craft
 - **+2:** Physique, Will, Provoke
-- **+1:** Deceit, Athletics, Contacts, Empathy
+- **+1:** Deceit, Athletics, Contacts, Empathy, Lore
 
 ## Stunts
 1) **Rallying Cry:**
@@ -54,6 +54,18 @@ Baseline permission/fictional affliction with the following boons & beguilments:
 - **Supernatural Strength (1/scene):** +2 Physique for a feat of strength Overcome OR +2 shifts to a brute-force Fight attack.
 - **Vampire Seduction (1/scene):** On successful Create Advantage with Rapport or Deceit to charm/entice, gain +1 extra free invoke on that advantage.
 - **Fire Vulnerability (always):** Against fire attacks or fire-zone hazards, apply +2 against Agran OR grant a free invoke to the GM on a relevant fire aspect (choose whichever fits, not both).
+
+### Extra (Cost 1 Refresh): Brevet Praefect of the Imperial Legion
+**Aspect/Permission:** Brevet Praefect of the Imperial Legion
+
+Agran has acting battlefield authority to issue orders and coordinate small units of Imperial Legionnaires / allied Whiterun guards when chain-of-command plausibly allows it.
+
+**Stunt: Legionnaire Tactician**
+Because Agran's Bard's College education, High Rock noble mentoring, and Legion experience translate strategy into action, once per scene he gains +2 when he uses Craft to Create an Advantage or Overcome by commanding troop movement, setting formations, establishing kill-zones, directing engineering/fortification work, or coordinating squads.
+
+On a Success with Style, choose ONE additional payoff (instead of the usual boost):
+1. **Tactical Edge:** Place a plausible situational aspect on the enemy or battlefield (e.g., "Outflanked," "Pinned," "Broken Formation," "Kill-Zone Exposed") with 1 free invoke.
+2. **Follow-Through Orders:** Immediately make a second Craft roll (no +2 bonus from this stunt) to issue follow-up orders to a different group as part of the same moment.
 
 ## Inventory
 - Waycrest War Drum
