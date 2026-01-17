@@ -1,9 +1,9 @@
 {
-  "current_location": "Whiterun — Battle of Whiterun (Staging)",
+  "current_location": "Whiterun — Dragonsreach (War Table Debrief)",
   "startup": {
     "start_point": "ACT_01_BATTLE_OF_WHITERUN",
-    "session_zero_mode": true,
-    "notes": "Begin at the module opening. Run Session Zero PC creation at the siege start before play proceeds."
+    "session_zero_mode": false,
+    "notes": "PC created; continuing post-wall to Dragonsreach debrief."
   },
   "party": {
     "alignment": "undecided",

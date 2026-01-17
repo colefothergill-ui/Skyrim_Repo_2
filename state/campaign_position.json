@@ -1,18 +1,18 @@
 {
   "current_act": 1,
-  "current_scene_id": "S0_CHARACTER_CREATION",
+  "current_scene_id": "S7_WHITERUN_DECISION",
   "current_hold": "Whiterun",
-  "current_location": "Whiterun — Battle of Whiterun (Staging)",
+  "current_location": "Whiterun — Dragonsreach (War Table Debrief)",
   "start_point": "ACT_01_BATTLE_OF_WHITERUN",
   "module_anchor": {
     "module_id": "ACT_01_BATTLE_OF_WHITERUN",
-    "scene_id": "S0_CHARACTER_CREATION"
+    "scene_id": "S7_WHITERUN_DECISION"
   },
   "focus_factions": [],
-  "last_log": "",
+  "last_log": "session_2026-01-08_1456.md",
   "on_track": {
-    "status": "unknown",
+    "status": "ok",
     "last_checked": "",
-    "notes": ""
+    "notes": "Synced to post-wall debrief; ring clue in play."
   }
 }
