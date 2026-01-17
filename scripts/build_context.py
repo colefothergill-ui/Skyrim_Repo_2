@@ -46,6 +46,8 @@ def newest_log_path() -> Optional[Path]:
     if not LOGS.exists():
         return None
     files = sorted(LOGS.glob("session_*.md"), reverse=True)
+    # Filter out template files
+    files = [f for f in files if "TEMPLATE" not in f.name.upper()]
     return files[0] if files else None
 
 def find_act_file(act: Any) -> str:

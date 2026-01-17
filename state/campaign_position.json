@@ -1,18 +1,18 @@
 {
   "current_act": 1,
-  "current_scene_id": "S7_WHITERUN_DECISION",
+  "current_scene_id": "S8_POST_WHITERUN_ROAD_TO_SOLITUDE",
   "current_hold": "Whiterun",
-  "current_location": "Whiterun — Dragonsreach (War Table Debrief)",
+  "current_location": "Road outside Whiterun (midnight, heading toward Solitude)",
   "start_point": "ACT_01_BATTLE_OF_WHITERUN",
   "module_anchor": {
     "module_id": "ACT_01_BATTLE_OF_WHITERUN",
     "scene_id": "S7_WHITERUN_DECISION"
   },
   "focus_factions": [],
-  "last_log": "session_2026-01-08_1456.md",
+  "last_log": "2026-01-17_session-03_BREATH_AND_BLINK.md",
   "on_track": {
     "status": "ok",
-    "last_checked": "",
-    "notes": "Synced to post-wall debrief; ring clue in play."
+    "last_checked": "2026-01-17",
+    "notes": "Act 1 complete; Dragonbreak displacement to road; heading toward Solitude."
   }
 }
