@@ -36,7 +36,7 @@
       "great_4": ["Fight"],
       "good_3": ["Rapport", "Craft"],
       "fair_2": ["Physique", "Will", "Provoke"],
-      "average_1": ["Deceit", "Athletics", "Contacts", "Empathy"]
+      "average_1": ["Deceit", "Athletics", "Contacts", "Empathy", "Lore"]
     },
     "stunt_1": "Rallying Cry: Once per scene he may Create Advantage, and gain a +2 to his Rapport 4dF rolls to inspire Imperial Soldier's to push back against their adversaries, and create a Scene Aspect 'Rallied' (2 free invokes for himself or his fellow soldiers). On SWS his allies gain an additional +2 to their first Fight 4dF this Scene.",
     "stunt_2": "Bard's College Alumni: When playing his War Drum, or Lute, he receives a +2 on Craft 4dF rolls, or a +2 to Rapport Rolls made when singing.",
@@ -49,7 +49,18 @@
     "extras": [
       "Breton (racial)",
       "The Lord Stone",
-      "Vampire (Sanguinar Vampirism)"
+      "Vampire (Sanguinar Vampirism)",
+      "Brevet Praefect of the Imperial Legion"
+    ],
+    "refresh": 1,
+    "refresh_spent": 2,
+    "extras_details": [
+      {
+        "name": "Brevet Praefect of the Imperial Legion",
+        "cost_refresh": 1,
+        "stunt": "Legionnaire Tactician",
+        "notes": "Acting battlefield authority to issue orders and coordinate small units of Imperial Legionnaires / allied Whiterun guards when chain-of-command plausibly allows it."
+      }
     ],
     "relationships": [
       {
