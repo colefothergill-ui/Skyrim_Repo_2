@@ -1,9 +1,6 @@
 """
 secret_turn_check.py
-Read-only evaluator: should the GM offer Option 6 (Elder Scrolls Moment) this scene?
-
-Usage:
-  python scripts/secret_turn_check.py
+Read-only evaluator: should the GM offer Option 6 this scene?
 """
 
 from __future__ import annotations
@@ -14,27 +11,30 @@ ROOT = Path(__file__).resolve().parents[1]
 CLOCKS = ROOT / "clocks" / "skyrim_clocks.json"
 POS = ROOT / "state" / "campaign_position.json"
 
+ACT_CLOCK_FOR_ACT = {
+    1: "act_01_whiterun_outcome",
+    2: "act_02_fronts_shift",
+    3: "act_03_city_crisis_wave",
+    4: "act_04_siege_preparation",
+    5: "act_05_true_enemy",
+}
+
 def load_json(p: Path) -> dict:
     try:
         with p.open("r", encoding="utf-8") as f:
             return json.load(f)
-    except FileNotFoundError:
-        print(f"Warning: File not found: {p}")
-        return {}
-    except json.JSONDecodeError as e:
-        print(f"Warning: Invalid JSON in {p}: {e}")
-        return {}
-    except Exception as e:
-        print(f"Warning: Error reading {p}: {e}")
+    except Exception:
         return {}
 
-def any_act_halfway(clocks: dict) -> bool:
-    for c in clocks.get("act_clocks", {}).values():
-        cur = c.get("current", 0)
-        mx = c.get("max", 1)
-        if isinstance(cur, int) and isinstance(mx, int) and mx > 0 and cur >= (mx // 2):
-            return True
-    return False
+def current_act_halfway(clocks: dict, act_num: int) -> bool:
+    act = clocks.get("act_clocks", {})
+    key = ACT_CLOCK_FOR_ACT.get(act_num)
+    if not key or key not in act:
+        return False
+    c = act[key]
+    cur = c.get("current", 0)
+    mx = c.get("max", 1)
+    return isinstance(cur, int) and isinstance(mx, int) and mx > 0 and (cur / mx) >= 0.5
 
 def any_faction_near_milestone(clocks: dict) -> bool:
     for c in clocks.get("faction_clocks", {}).values():
@@ -48,37 +48,35 @@ def main() -> None:
     clocks = load_json(CLOCKS)
     pos = load_json(POS) if POS.exists() else {}
 
-    thalmor = clocks.get("master_clocks", {}).get("thalmor_influence", {})
-    thalmor_cur = thalmor.get("current", 0)
+    try:
+        act_num = int(pos.get("current_act", 0) or 0)
+    except Exception:
+        act_num = 0
 
     eligible = False
     reasons = []
 
+    thalmor = clocks.get("master_clocks", {}).get("thalmor_influence", {})
+    thalmor_cur = thalmor.get("current", 0)
     if isinstance(thalmor_cur, int) and thalmor_cur >= 3:
         eligible = True
-        reasons.append("Thalmor Influence ≥ 3")
+        reasons.append("Thalmor Influence >= 3")
 
-    if any_act_halfway(clocks):
+    if current_act_halfway(clocks, act_num):
         eligible = True
-        reasons.append("An Act clock is halfway+")
+        reasons.append("Current Act clock is halfway+")
     if any_faction_near_milestone(clocks):
         eligible = True
         reasons.append("A faction clock is within 1 tick of a milestone")
 
     loc = (pos.get("current_location") or "").lower()
-    hold = (pos.get("current_hold") or "").lower()
-    if any(k in loc for k in ["ruin", "barrow", "dwemer", "shrine"]) or hold in ["the reach", "reach"]:
+    if any(k in loc for k in ["ruin", "barrow", "dwemer", "shrine", "crypt", "tomb", "ancient"]):
         eligible = True
         reasons.append("Mythic/ancient location flag")
 
     print("Secret Turn Eligible:", "YES" if eligible else "NO")
     if reasons:
         print("Reasons:", ", ".join(reasons))
-
-    print("\nSeed suggestions (choose 1):")
-    print("- A hidden mechanism / sealed door reveals a clue (TODO)")
-    print("- A masked agent slips: Thalmor shadow thread intensifies (TODO)")
-    print("- Markarth tone seed: doors slam + disembodied taunt (Molag Bal vibe) (TODO triggers)")
 
 if __name__ == "__main__":
     main()

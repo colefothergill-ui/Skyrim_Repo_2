@@ -12,7 +12,12 @@
     "civil_war_joined": true,
     "civil_war_side": "imperial",
     "thalmor_evidence_found": false,
-    "thalmor_evidence_revealed": false
+    "thalmor_evidence_revealed": false,
+    "crescent_witness_cell_active": true,
+    "markarth_route_chosen": true,
+    "courier_sabotage_attempted": true,
+    "hadvar_poisoned": true,
+    "molag_bal_hook_near_markarth": true
   },
   "faction_quest_flags": {
     "companions": {
