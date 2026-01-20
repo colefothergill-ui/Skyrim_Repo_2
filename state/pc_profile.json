@@ -30,7 +30,8 @@
       "The Secret of my Sanguine.",
       "Bard's College Graduate & Honorable Imperial Soldier.",
       "Sybille Stentor Is the Only One Who Knows.",
-      "Hadvar's Shield-Brother in Song and Steel."
+      "Hadvar's Shield-Brother in Song and Steel.",
+      "Bal Knows Your Ambition"
     ],
     "skills_or_approaches": {
       "great_4": ["Fight"],
@@ -53,6 +54,13 @@
       "Mist Form",
       "Vampiric Mist Form",
       "Blood-Crowned Predator (passive)"
+    ],
+    "vampire_milestones": [
+      {
+        "id": "SANGUINAR_APEX_01",
+        "reward": "Vampiric Mist Form",
+        "note": "Claimed on max blood potency + blood revelation."
+      }
     ],
     "extras": [
       "Breton (racial)",
@@ -86,7 +94,15 @@
       "Waycrest War Drum",
       "Imperial Soldier's Uniform (Leather)",
       "Dueling blade",
-      "Lute"
+      "Lute",
+      "Mace of Molag Bal (Daedric Artifact)"
+    ],
+    "artifacts": [
+      {
+        "name": "Mace of Molag Bal",
+        "tag": "Daedric Artifact",
+        "note": "Claimed in Markarth's Abandoned House. A domination-rite focus. Carries Bal's attention."
+      }
     ],
     "stress": {
       "physical_marked": [2],
