@@ -115,6 +115,21 @@
       "current": 1,
       "max": 4,
       "note": "Lydia's respect/loyalty toward Agran (fills when treated as a valued ally, not a servant)."
+    },
+    "trust_tyranus": {
+      "current": 2,
+      "max": 4,
+      "note": "Trust with Vigilant Tyranus; fills when Agran protects him, respects his vows, and resists Daedric coercion without throwing him away as a tool."
+    },
+    "agran_vampire_suspicion_markarth": {
+      "current": 0,
+      "max": 6,
+      "note": "Markarth exposure risk (Vigilants/Arkay scrutiny). Tick on witnessed vampiric powers, blood tells, or forced reveals—especially around Vigilant Tyranus."
+    },
+    "agran_vampire_exposure_tyranus": {
+      "current": 0,
+      "max": 6,
+      "note": "How close Vigilant Tyranus is to confirming Agran's vampirism. Ticks on witnessed inhuman tells/powers, blood hunger slips, or Daedric manipulation revealing the secret."
     }
   },
   "clocks": {

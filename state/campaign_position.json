@@ -1,12 +1,12 @@
 {
   "current_act": 2,
-  "current_scene_id": "S4_SWITCHBACK_AMBUSH",
+  "current_scene_id": "S5_HOUSE_OF_HORRORS",
   "current_hold": "The Reach",
-  "current_location": "Markarth — Outer Gate / Bridge of Stone (Abandoned House disturbance)",
+  "current_location": "Markarth — Abandoned House (interior)",
   "start_point": "ACT_01_BATTLE_OF_WHITERUN",
   "module_anchor": {
     "module_id": "ACT_02_SPREADING_FLAMES",
-    "scene_id": "S4_SWITCHBACK_AMBUSH"
+    "scene_id": "S5_HOUSE_OF_HORRORS"
   },
   "focus_factions": [
     "imperial_legion",
