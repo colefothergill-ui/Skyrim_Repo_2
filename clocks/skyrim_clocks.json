@@ -23,7 +23,7 @@
       "note": "Tracks Whiterun battle progression and outcome."
     },
     "act_02_fronts_shift": {
-      "current": 5,
+      "current": 6,
       "max": 6,
       "note": "Tracks escalation across holds."
     },
@@ -70,7 +70,7 @@
       "note": "Side Plot C — Reach destabilization."
     },
     "thalmor_shadow_war": {
-      "current": 5,
+      "current": 6,
       "max": 6,
       "note": "Side Plot C — covert operations escalating into Act V."
     },
@@ -142,7 +142,7 @@
       "note": "How close Markarth is to learning Agran is a vampire (via witnesses, blackmail, or loose tongues). The captain just saw something he can sell."
     },
     "markarth_corruption_purge": {
-      "current": 1,
+      "current": 2,
       "max": 6,
       "note": "Markarth internal cleanup after the Drop interdiction. Ticks when arrests, asset seizures, and loyal replacements happen."
     }
