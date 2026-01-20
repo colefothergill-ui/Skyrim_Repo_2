@@ -82,7 +82,7 @@
   },
   "personal_clocks": {
     "agran_legion_authority": {
-      "current": 2,
+      "current": 3,
       "max": 6,
       "note": "Brevet Praefect authority in practice. Tick when Agran successfully commands units or gets recognized by officers."
     },

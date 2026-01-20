@@ -41,15 +41,17 @@
     "stunt_1": "Rallying Cry: Once per scene he may Create Advantage, and gain a +2 to his Rapport 4dF rolls to inspire Imperial Soldier's to push back against their adversaries, and create a Scene Aspect 'Rallied' (2 free invokes for himself or his fellow soldiers). On SWS his allies gain an additional +2 to their first Fight 4dF this Scene.",
     "stunt_2": "Bard's College Alumni: When playing his War Drum, or Lute, he receives a +2 on Craft 4dF rolls, or a +2 to Rapport Rolls made when singing.",
     "stunt_3": "College of Swords: When fighting against only one opponent, he receives +2 to Defense Rolls he makes with Fight. On SWS he may forgo the Boost to Create Advantage, and attempt to impose a Scene Aspect on his opposition 'Disarmed', 'Feinting blow', 'Fancy Foot Work'.",
-    "stunt_4": "Mist Form: Once per scene, you may turn into mist to escape or reposition (a strong boost to movement or defense).",
+    "stunt_4": "Vampiric Mist Form: Once per scene, turn into mist to escape or reposition (a fancy boost to defense or movement).",
     "stunts": [
       "Rallying Cry",
       "Bard's College Alumni",
       "College of Swords",
-      "Mist Form"
+      "Mist Form",
+      "Vampiric Mist Form"
     ],
     "sanguinar_upgrades": [
       "Mist Form",
+      "Vampiric Mist Form",
       "Blood-Crowned Predator (passive)"
     ],
     "extras": [
@@ -86,6 +88,10 @@
       "Dueling blade",
       "Lute"
     ],
+    "stress": {
+      "physical_marked": [2],
+      "mental_marked": []
+    },
     "clocks": {
       "blood_potency": {
         "current": 0,
