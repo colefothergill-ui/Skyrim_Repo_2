@@ -23,7 +23,7 @@
       "note": "Tracks Whiterun battle progression and outcome."
     },
     "act_02_fronts_shift": {
-      "current": 1,
+      "current": 3,
       "max": 6,
       "note": "Tracks escalation across holds."
     },
@@ -70,12 +70,12 @@
       "note": "Side Plot C — Reach destabilization."
     },
     "thalmor_shadow_war": {
-      "current": 1,
+      "current": 3,
       "max": 6,
       "note": "Side Plot C — covert operations escalating into Act V."
     },
     "molag_bal_influence": {
-      "current": 5,
+      "current": 6,
       "max": 6,
       "note": "Ticks when domination/cruelty choices escalate. Markarth proximity + vampire violence increases this."
     }
@@ -97,7 +97,7 @@
       "note": "How close Whiterun is to connecting the dots on Agran's Sanguine secret. Tick on feeding evidence, odd behavior, witnesses."
     },
     "agran_thalmor_attention": {
-      "current": 5,
+      "current": 6,
       "max": 6,
       "note": "How much the Thalmor/third-party watchers notice Agran. Tick when you seize evidence, expose schemes, or become a political problem."
     },
