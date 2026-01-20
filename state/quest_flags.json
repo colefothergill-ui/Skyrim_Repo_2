@@ -17,7 +17,8 @@
     "markarth_route_chosen": true,
     "courier_sabotage_attempted": true,
     "hadvar_poisoned": true,
-    "molag_bal_hook_near_markarth": true
+    "molag_bal_hook_near_markarth": true,
+    "molag_bal_house_of_horrors_started": true
   },
   "faction_quest_flags": {
     "companions": {
