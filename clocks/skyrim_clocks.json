@@ -70,7 +70,7 @@
       "note": "Side Plot C — Reach destabilization."
     },
     "thalmor_shadow_war": {
-      "current": 0,
+      "current": 1,
       "max": 6,
       "note": "Side Plot C — covert operations escalating into Act V."
     },
@@ -102,12 +102,12 @@
       "note": "How much the Thalmor/third-party watchers notice Agran. Tick when you seize evidence, expose schemes, or become a political problem."
     },
     "agran_crescent_signet_mystery": {
-      "current": 3,
+      "current": 4,
       "max": 4,
       "note": "Progress uncovering the 'crescent over tower' signet/ring faction and its purpose."
     },
     "trust_hadvar": {
-      "current": 3,
+      "current": 4,
       "max": 4,
       "note": "Hadvar's trust and willingness to go to the mat for Agran."
     },
@@ -117,9 +117,9 @@
       "note": "Lydia's respect/loyalty toward Agran (fills when treated as a valued ally, not a servant)."
     },
     "trust_tyranus": {
-      "current": 3,
+      "current": 2,
       "max": 4,
-      "note": "Trust with Vigilant Tyranus. Ticks when Agran protects innocents, resists Daedric coercion, and keeps Tyranus alive without treating him like a tool."
+      "note": "Trust with Vigilant Tyranus; fills when Agran resists Daedric coercion and protects innocents without treating Tyranus as disposable."
     },
     "agran_vampire_suspicion_markarth": {
       "current": 0,
@@ -127,14 +127,14 @@
       "note": "Markarth exposure risk (Vigilants/Arkay scrutiny). Tick on witnessed vampiric powers, blood tells, or forced reveals—especially around Vigilant Tyranus."
     },
     "agran_vampire_exposure_tyranus": {
-      "current": 0,
+      "current": 2,
       "max": 6,
-      "note": "How close Tyranus is to confirming Agran is a vampire. Ticks on witnessed vampiric tells/powers, blood hunger slips, or Daedric manipulation."
+      "note": "How close Tyranus is to confirming Agran's vampirism. Ticks on witnessed vampiric tells/powers or forced reveals."
     }
   },
   "clocks": {
     "dragonbreak_reality_frayed": {
-      "current": 2,
+      "current": 3,
       "max": 4,
       "note": "Track Dragonbreak recoil and reality fraying events."
     }
