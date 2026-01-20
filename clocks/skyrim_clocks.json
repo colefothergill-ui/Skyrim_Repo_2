@@ -75,14 +75,14 @@
       "note": "Side Plot C — covert operations escalating into Act V."
     },
     "molag_bal_influence": {
-      "current": 3,
+      "current": 4,
       "max": 6,
       "note": "Ticks when domination/cruelty choices escalate. Markarth proximity + vampire violence increases this."
     }
   },
   "personal_clocks": {
     "agran_legion_authority": {
-      "current": 3,
+      "current": 4,
       "max": 6,
       "note": "Brevet Praefect authority in practice. Tick when Agran successfully commands units or gets recognized by officers."
     },
