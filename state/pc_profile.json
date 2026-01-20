@@ -15,6 +15,7 @@
     "skills_or_approaches",
     "stunt_1"
   ],
+  "refresh": 6,
   "pc": {
     "name": "Agran Moorcroft",
     "alias": "The Minstrel",
@@ -29,13 +30,14 @@
       "The Bloody Bard Quester of Solitude.",
       "The Secret of my Sanguine.",
       "Bard's College Graduate & Honorable Imperial Soldier.",
-      "Sybille Stentor Is the Only One Who Knows.",
+      "The Wolf of Solitude — Slayer of Galmar.",
       "Hadvar's Shield-Brother in Song and Steel.",
       "Bal Knows Your Ambition"
     ],
     "skills_or_approaches": {
-      "great_4": ["Fight"],
-      "good_3": ["Rapport", "Craft"],
+      "superb_5": ["Fight"],
+      "great_4": ["Rapport"],
+      "good_3": ["Craft"],
       "fair_2": ["Physique", "Will", "Provoke"],
       "average_1": ["Deceit", "Athletics", "Contacts", "Empathy", "Lore"]
     },
@@ -69,7 +71,7 @@
       "Brevet Praefect of the Imperial Legion",
       "Mace of Molag Bal (Artifact Extra)"
     ],
-    "refresh": 1,
+    "refresh": 4,
     "refresh_spent": 2,
     "extras_details": [
       {
