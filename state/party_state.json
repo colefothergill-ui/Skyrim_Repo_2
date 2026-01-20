@@ -1,25 +1,33 @@
 {
   "meta": {
     "description": "Party state tracking for current companions and cohesion",
-    "updated": "2026-01-05",
-    "notes": "Session Zero start template"
+    "updated": "2026-01-19",
+    "notes": "Post-Whiterun fallout: Hadvar temporarily separated for medical stabilization; Agran traveling alone toward Markarth."
   },
-  "active_companions": [],
+  "active_companions": [
+    "Hadvar of Solitude (injured; stabilized at Imperial checkpoint — temporarily off-screen)"
+  ],
   "party_cohesion_clock": {
-    "current": 0,
+    "current": 1,
     "max": 6,
-    "note": "Teamwork and cohesion; max grants +1 to teamwork invoking."
+    "note": "Teamwork and cohesion; increases with shared victories and trust-building."
   },
   "morale": {
-    "state": "neutral",
-    "note": "Start of campaign."
+    "state": "high",
+    "note": "Whiterun victory boosted morale; sabotage and night violence add tension underneath."
   },
   "current_threads": {
     "goals": [
-      "SESSION ZERO: Create the PC (aspects, skills, stunts).",
-      "Choose primary affiliation + starting role at the Battle of Whiterun.",
-      "Set opening stakes and initial consequences for the siege."
+      "Reach Markarth and secure Legion support / audience with command.",
+      "Deliver Whiterun outcome + reinforcement request to Solitude command chain (Tullius).",
+      "Investigate crescent-over-tower / 'The Witness' sabotage cell.",
+      "Avoid opening sealed evidence alone; maintain chain-of-custody.",
+      "Markarth rumors: 'abandoned house' screaming — Molag Bal hook proximity."
     ],
-    "unresolved_threads": []
+    "unresolved_threads": [
+      "Who is 'The Witness' and why are they testing Agran's seal?",
+      "What exactly is inside/attached to the crescent-over-tower evidence chain?",
+      "Second-team sabotage network still active on the roads."
+    ]
   }
 }

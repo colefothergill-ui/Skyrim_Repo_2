@@ -1,32 +1,40 @@
 {
-  "current_location": "Road outside Whiterun (midnight, heading toward Solitude)",
+  "current_location": "The Reach — Switchback approach to Markarth (Crescent Witness ambush)",
   "startup": {
     "start_point": "ACT_01_BATTLE_OF_WHITERUN",
     "session_zero_mode": false,
-    "notes": "PC created; continuing post-wall to Dragonsreach debrief."
+    "notes": "Session Zero complete. Battle of Whiterun resolved. Play is currently in Act 02 fallout: sabotage, Dragonbreak recoil, and Markarth approach."
   },
   "party": {
-    "alignment": "undecided",
-    "allies": [],
-    "enemies": []
+    "alignment": "imperial",
+    "allies": [
+      "Hadvar of Solitude",
+      "Lydia of Whiterun"
+    ],
+    "enemies": [
+      "Crescent Witness cell (unknown handlers)"
+    ]
   },
   "major_flags": {
     "whiterun_decided": true,
-    "whiterun_held_by_empire": true,
     "proof_of_thalmor_manipulation_found": false,
     "battle_of_whiterun_started": true,
-    "battle_of_whiterun_complete": true,
     "galmar_stone_fist_killed": true,
     "rumor_vampire_whiterun_wall": true,
-    "brevet_praefect_authority_granted": true,
-    "crescent_signet_evidence_sealed": true,
-    "dragonbreak_midnight_jump": true
+
+    "whiterun_battle_complete": true,
+    "courier_sabotage_attempted": true,
+    "hadvar_poisoned": true,
+    "evidence_seal_tamper_attempted": true,
+    "crescent_witness_cell_active": true,
+    "markarth_route_chosen": true
   },
   "holds": {
     "Whiterun": {
-      "control": "imperial",
-      "morale": "high",
-      "status": "post-siege_stabilization"
+      "control": "imperial"
+    },
+    "The Reach": {
+      "control": "imperial"
     }
   }
 }
