@@ -42,13 +42,29 @@ def load_json(path: Path) -> Optional[dict]:
     except Exception:
         return None
 
-def newest_log_path() -> Optional[Path]:
+def newest_log_path(pos: Optional[dict] = None) -> Optional[Path]:
+    """
+    Find the most recent log file.
+    Prioritizes the 'last_log' field from campaign_position.json if available,
+    otherwise falls back to scanning for session_*.md files.
+    """
     if not LOGS.exists():
         return None
+    
+    # Check if campaign_position.json has a last_log field
+    if pos and "last_log" in pos:
+        last_log = pos["last_log"]
+        log_file = LOGS / last_log
+        if log_file.exists():
+            return log_file
+    
+    # Fallback: scan for all session/log files with both naming patterns
     files = sorted(LOGS.glob("session_*.md"), reverse=True)
+    files2 = sorted(LOGS.glob("*_session-*_*.md"), reverse=True)
+    all_files = files + files2
     # Filter out template files
-    files = [f for f in files if "TEMPLATE" not in f.name.upper()]
-    return files[0] if files else None
+    all_files = [f for f in all_files if "TEMPLATE" not in f.name.upper()]
+    return sorted(all_files, reverse=True)[0] if all_files else None
 
 def find_act_file(act: Any) -> str:
     acts_dir = ROOT / "modules" / "acts"
@@ -69,7 +85,7 @@ def main() -> None:
     defaults = load_json(DEFAULTS) or {}
 
     clocks = load_json(CLOCKS) or {}
-    log_path = newest_log_path()
+    log_path = newest_log_path(pos)
 
     print("=" * 70)
     print("GM CONTEXT PACK")
