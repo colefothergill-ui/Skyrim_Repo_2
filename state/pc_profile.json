@@ -42,7 +42,7 @@
     "stunt_1": "Rallying Cry: Once per scene he may Create Advantage, and gain a +2 to his Rapport 4dF rolls to inspire Imperial Soldier's to push back against their adversaries, and create a Scene Aspect 'Rallied' (2 free invokes for himself or his fellow soldiers). On SWS his allies gain an additional +2 to their first Fight 4dF this Scene.",
     "stunt_2": "Bard's College Alumni: When playing his War Drum, or Lute, he receives a +2 on Craft 4dF rolls, or a +2 to Rapport Rolls made when singing.",
     "stunt_3": "College of Swords: When fighting against only one opponent, he receives +2 to Defense Rolls he makes with Fight. On SWS he may forgo the Boost to Create Advantage, and attempt to impose a Scene Aspect on his opposition 'Disarmed', 'Feinting blow', 'Fancy Foot Work'.",
-    "stunt_4": "Vampiric Mist Form: Once per scene, turn into mist to escape or reposition (a fancy boost to defense or movement).",
+    "stunt_4": "Vampiric Mist Form: Once per scene, you may become mist to escape/reposition; use Athletics or Will to Overcome/Defend with +2, or Create Advantage 'Mist-Shrouded' (1 free invoke) on success.",
     "stunts": [
       "Rallying Cry",
       "Bard's College Alumni",
@@ -66,7 +66,8 @@
       "Breton (racial)",
       "The Lord Stone",
       "Vampire (Sanguinar Vampirism)",
-      "Brevet Praefect of the Imperial Legion"
+      "Brevet Praefect of the Imperial Legion",
+      "Mace of Molag Bal (Artifact Extra)"
     ],
     "refresh": 1,
     "refresh_spent": 2,
@@ -76,6 +77,17 @@
         "cost_refresh": 1,
         "stunt": "Legionnaire Tactician",
         "notes": "Acting battlefield authority to issue orders and coordinate small units of Imperial Legionnaires / allied Whiterun guards when chain-of-command plausibly allows it."
+      },
+      {
+        "name": "Mace of Molag Bal (Artifact Extra)",
+        "cost_refresh": 0,
+        "aspects": ["Mace of Molag Bal — Hunger in Iron", "Control Feels Easy"],
+        "stunts": [
+          "Shaken Will (repo canon): Once per session, when you win a social conflict by intimidation, you may also inflict a mild consequence 'Shaken Will' (fictional follow-through required).",
+          "Draining Blow: Once per scene, on a hit with Fight using the Mace, either place 'Sapped (Stamina/Magicka Drained)' with 1 free invoke (2 on SWS), OR clear one stress box and gain 'Taste of Power' (GM gets 1 free invoke).",
+          "Soul Snare: When you Take Out someone with the Mace, declare 'Soul Bound' for the scene and gain Boost 'Captured Essence' (+2 once on soul/undead/warding/daedra-related Lore/Will/Provoke)."
+        ],
+        "gm_compels": ["Control Feels Easy", "The Weak Are Tools", "Chains You Can't See"]
       }
     ],
     "relationships": [
@@ -95,7 +107,7 @@
       "Imperial Soldier's Uniform (Leather)",
       "Dueling blade",
       "Lute",
-      "Mace of Molag Bal (Daedric Artifact)"
+      "Mace of Molag Bal (wrapped; Imperial custody)"
     ],
     "artifacts": [
       {

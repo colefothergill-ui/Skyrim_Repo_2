@@ -75,14 +75,14 @@
       "note": "Side Plot C — covert operations escalating into Act V."
     },
     "molag_bal_influence": {
-      "current": 4,
+      "current": 5,
       "max": 6,
       "note": "Ticks when domination/cruelty choices escalate. Markarth proximity + vampire violence increases this."
     }
   },
   "personal_clocks": {
     "agran_legion_authority": {
-      "current": 4,
+      "current": 3,
       "max": 6,
       "note": "Brevet Praefect authority in practice. Tick when Agran successfully commands units or gets recognized by officers."
     },
@@ -117,9 +117,9 @@
       "note": "Lydia's respect/loyalty toward Agran (fills when treated as a valued ally, not a servant)."
     },
     "trust_tyranus": {
-      "current": 2,
+      "current": 3,
       "max": 4,
-      "note": "Trust with Vigilant Tyranus; fills when Agran protects him, respects his vows, and resists Daedric coercion without throwing him away as a tool."
+      "note": "Trust with Vigilant Tyranus. Ticks when Agran protects innocents, resists Daedric coercion, and keeps Tyranus alive without treating him like a tool."
     },
     "agran_vampire_suspicion_markarth": {
       "current": 0,
@@ -129,7 +129,7 @@
     "agran_vampire_exposure_tyranus": {
       "current": 0,
       "max": 6,
-      "note": "How close Vigilant Tyranus is to confirming Agran's vampirism. Ticks on witnessed inhuman tells/powers, blood hunger slips, or Daedric manipulation revealing the secret."
+      "note": "How close Tyranus is to confirming Agran is a vampire. Ticks on witnessed vampiric tells/powers, blood hunger slips, or Daedric manipulation."
     }
   },
   "clocks": {
