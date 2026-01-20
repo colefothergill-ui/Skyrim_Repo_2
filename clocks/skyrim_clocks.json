@@ -23,7 +23,7 @@
       "note": "Tracks Whiterun battle progression and outcome."
     },
     "act_02_fronts_shift": {
-      "current": 3,
+      "current": 5,
       "max": 6,
       "note": "Tracks escalation across holds."
     },
@@ -70,7 +70,7 @@
       "note": "Side Plot C — Reach destabilization."
     },
     "thalmor_shadow_war": {
-      "current": 3,
+      "current": 5,
       "max": 6,
       "note": "Side Plot C — covert operations escalating into Act V."
     },
@@ -78,6 +78,11 @@
       "current": 6,
       "max": 6,
       "note": "Ticks when domination/cruelty choices escalate. Markarth proximity + vampire violence increases this."
+    },
+    "bal_claim": {
+      "current": 2,
+      "max": 4,
+      "note": "Molag Bal's personal claim on Agran. Ticks when Agran chooses domination over necessity, uses the mace for control, or accepts Bal's bargains."
     }
   },
   "personal_clocks": {
@@ -130,6 +135,16 @@
       "current": 2,
       "max": 6,
       "note": "How close Tyranus is to confirming Agran's vampirism. Ticks on witnessed vampiric tells/powers or forced reveals."
+    },
+    "agran_secret_leak_markarth": {
+      "current": 1,
+      "max": 6,
+      "note": "How close Markarth is to learning Agran is a vampire (via witnesses, blackmail, or loose tongues). The captain just saw something he can sell."
+    },
+    "markarth_corruption_purge": {
+      "current": 1,
+      "max": 6,
+      "note": "Markarth internal cleanup after the Drop interdiction. Ticks when arrests, asset seizures, and loyal replacements happen."
     }
   },
   "clocks": {
