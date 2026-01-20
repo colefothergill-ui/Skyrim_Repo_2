@@ -73,6 +73,11 @@
       "current": 0,
       "max": 6,
       "note": "Side Plot C — covert operations escalating into Act V."
+    },
+    "molag_bal_influence": {
+      "current": 1,
+      "max": 6,
+      "note": "Ticks when domination/cruelty choices escalate. Markarth proximity + vampire violence increases this."
     }
   },
   "personal_clocks": {
@@ -97,7 +102,7 @@
       "note": "How much the Thalmor/third-party watchers notice Agran. Tick when you seize evidence, expose schemes, or become a political problem."
     },
     "agran_crescent_signet_mystery": {
-      "current": 1,
+      "current": 2,
       "max": 4,
       "note": "Progress uncovering the 'crescent over tower' signet/ring faction and its purpose."
     },
