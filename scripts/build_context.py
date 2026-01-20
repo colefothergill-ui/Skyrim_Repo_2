@@ -59,10 +59,10 @@ def newest_log_path(pos: Optional[dict] = None) -> Optional[Path]:
             return log_file
     
     # Fallback: scan for all session/log files with both naming patterns
-    files = sorted(LOGS.glob("session_*.md"), reverse=True)
-    files2 = sorted(LOGS.glob("*_session-*_*.md"), reverse=True)
-    all_files = files + files2
-    # Filter out template files
+    all_files = []
+    all_files.extend(LOGS.glob("session_*.md"))
+    all_files.extend(LOGS.glob("*_session-*_*.md"))
+    # Filter out template files and sort by name in reverse order
     all_files = [f for f in all_files if "TEMPLATE" not in f.name.upper()]
     return sorted(all_files, reverse=True)[0] if all_files else None
 
