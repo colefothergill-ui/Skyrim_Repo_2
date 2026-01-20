@@ -1,8 +1,8 @@
 {
   "meta": {
     "era": "4E 201",
-    "updated": "2026-01-19",
-    "notes": "Session Zero start: all clocks reset to beginning state. Updated post-iOS Session 4 progress."
+    "updated": "2026-01-17",
+    "notes": "Session 03: Breath and Blink - Whiterun Act complete, Dragonbreak displacement to road."
   },
   "master_clocks": {
     "civil_war_endgame": {
@@ -81,35 +81,40 @@
     }
   },
   "personal_clocks": {
+    "agran_legion_authority": {
+      "current": 2,
+      "max": 6,
+      "note": "Brevet Praefect authority in practice. Tick when Agran successfully commands units or gets recognized by officers."
+    },
+    "agran_whiterun_renown": {
+      "current": 4,
+      "max": 6,
+      "note": "Public reputation in Whiterun. Tick on public victories, speeches, visible heroics; can create easier social leverage when high."
+    },
+    "agran_vampire_suspicion_whiterun": {
+      "current": 2,
+      "max": 6,
+      "note": "How close Whiterun is to connecting the dots on Agran's Sanguine secret. Tick on feeding evidence, odd behavior, witnesses."
+    },
+    "agran_thalmor_attention": {
+      "current": 1,
+      "max": 6,
+      "note": "How much the Thalmor/third-party watchers notice Agran. Tick when you seize evidence, expose schemes, or become a political problem."
+    },
+    "agran_crescent_signet_mystery": {
+      "current": 2,
+      "max": 4,
+      "note": "Progress uncovering the 'crescent over tower' signet/ring faction and its purpose."
+    },
     "trust_hadvar": {
       "current": 3,
       "max": 4,
-      "note": "Shield-brother trust; high, but strained by recent night events and secrecy."
+      "note": "Hadvar's trust and willingness to go to the mat for Agran."
     },
-    "renown_whiterun": {
-      "current": 4,
-      "max": 6,
-      "note": "Public renown after the Whiterun victory speech and Galmar's death."
-    },
-    "legion_authority_brevet": {
-      "current": 2,
-      "max": 6,
-      "note": "Practical pull within Legion/Imperial chain; grows with successful commands and official recognition."
-    },
-    "crescent_tower_mystery": {
-      "current": 2,
-      "max": 4,
-      "note": "Progress on crescent-over-tower / 'The Witness' thread: ring continuity + sabotage orders revealed."
-    },
-    "vampire_exposure_risk": {
-      "current": 2,
-      "max": 6,
-      "note": "Risk of vampirism being exposed; rumors exist, but no confirmed public proof yet."
-    },
-    "molag_bal_attention": {
+    "trust_lydia": {
       "current": 1,
-      "max": 6,
-      "note": "Daedric attention pressure (Molag Bal). Ticks when predation/domination escalates."
+      "max": 4,
+      "note": "Lydia's respect/loyalty toward Agran (fills when treated as a valued ally, not a servant)."
     }
   },
   "clocks": {

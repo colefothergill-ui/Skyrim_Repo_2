@@ -1,7 +1,7 @@
 {
   "meta": {
     "description": "PC creation gate. If created=false, the GM MUST run Session Zero before play proceeds.",
-    "updated": "2026-01-19",
+    "updated": "2026-01-16",
     "patch": "Agran Moorcroft (The Minstrel) - Canonical PC"
   },
   "created": true,
