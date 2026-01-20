@@ -82,11 +82,11 @@
     ],
     "clocks": {
       "blood_potency": {
-        "current": 2,
+        "current": 4,
         "max": 6
       },
       "blood_revelation": {
-        "current": 2,
+        "current": 4,
         "max": 6
       }
     },
@@ -95,6 +95,11 @@
         "id": 1,
         "trigger": "Major feed: Galmar Stone-Fist",
         "clue": "candlelit hall; signet ring (crescent over tower); voice: 'Good. Let them watch you win.'"
+      },
+      {
+        "id": 2,
+        "trigger": "Major feed: Seal-tamper operative",
+        "clue": "Orders fragment: 'DELAY COURIER. TEST SEAL.' Phrase overheard: 'The Witness'. Crescent-over-tower symbol copied on dispatch slip."
       }
     ]
   }
