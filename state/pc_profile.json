@@ -82,11 +82,11 @@
     ],
     "clocks": {
       "blood_potency": {
-        "current": 4,
+        "current": 6,
         "max": 6
       },
       "blood_revelation": {
-        "current": 4,
+        "current": 6,
         "max": 6
       }
     },
@@ -100,6 +100,11 @@
         "id": 2,
         "trigger": "Major feed: Seal-tamper operative",
         "clue": "Orders fragment: 'DELAY COURIER. TEST SEAL.' Phrase overheard: 'The Witness'. Crescent-over-tower symbol copied on dispatch slip."
+      },
+      {
+        "id": 3,
+        "trigger": "Major feed: Crescent Witness field leader",
+        "clue": "Ink-sting on the tongue; a whistle cord; the words 'SUBJECT CONFIRMED' and 'REPORT TO: MARKARTH DROP' signed only '—THE WITNESS'. A flash of a door that shouldn't be there, and a low voice: 'Bring him to stone.'"
       }
     ]
   }
