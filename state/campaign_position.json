@@ -2,7 +2,7 @@
   "current_act": 2,
   "current_scene_id": "S4_SWITCHBACK_AMBUSH",
   "current_hold": "The Reach",
-  "current_location": "The Reach — Switchback approach to Markarth (Crescent Witness ambush)",
+  "current_location": "The Reach — Markarth approach (Imperial checkpoint behind you; outer bridge ahead)",
   "start_point": "ACT_01_BATTLE_OF_WHITERUN",
   "module_anchor": {
     "module_id": "ACT_02_SPREADING_FLAMES",
@@ -17,6 +17,6 @@
   "on_track": {
     "status": "ok",
     "last_checked": "2026-01-19",
-    "notes": "Act 01 resolved: Whiterun held for the Empire. Dragonbreak aftershock displaced Agran to the road. Courier sabotage attempt: Hadvar poisoned and stabilized at an Imperial checkpoint. Agran is now on the Markarth approach, engaged by a 'Crescent Witness' second team."
+    "notes": "Act 01 resolved: Whiterun held for the Empire. Dragonbreak aftershock displaced Agran to the road. Crescent Witness ambush concluded (no survivors). Hadvar stabilized at the Imperial checkpoint. Agran proceeds toward Markarth to report to the Legate and investigate the 'MARKARTH DROP' lead."
   }
 }
