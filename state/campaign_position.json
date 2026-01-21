@@ -1,12 +1,12 @@
 {
   "current_act": 2,
-  "current_scene_id": "S10_COURIER_INTERROGATION",
+  "current_scene_id": "S16_REACH_RIDGELINE_KILLBOX",
   "current_hold": "The Reach",
-  "current_location": "The Reach — Imperial checkpoint outside Markarth (evidence duplication + courier interrogation)",
+  "current_location": "The Reach — crag ridgelines above Markarth (ambush ground; Killbox in the Crags)",
   "start_point": "ACT_01_BATTLE_OF_WHITERUN",
   "module_anchor": {
     "module_id": "ACT_02_SPREADING_FLAMES",
-    "scene_id": "S10_COURIER_INTERROGATION"
+    "scene_id": "S16_REACH_RIDGELINE_KILLBOX"
   },
   "focus_factions": [
     "imperial_legion",
