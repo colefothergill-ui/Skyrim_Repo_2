@@ -89,8 +89,17 @@ See `/modules/locations/` for detailed location guides with aspects and GM hooks
 
 ### GM Automation Tools
 ```bash
-# Run full vault audit and integrity check
-bash scripts/audit_vault.sh
+# Build context bundle for ChatGPT integration
+python scripts/build_context.py --chatgpt --output /tmp/context.md
+
+# Find NPCs by location, faction, or name
+python scripts/npc_lookup.py --current --detailed
+python scripts/npc_lookup.py --location "Whiterun"
+python scripts/npc_lookup.py --faction imperials
+
+# Track character progression and milestones
+python scripts/character_progression.py --suggest
+python scripts/character_progression.py --milestone major --character PC_MAIN.md
 
 # Create a new session log with timestamp
 python scripts/session_stamp.py
@@ -98,14 +107,28 @@ python scripts/session_stamp.py
 # Check for Dragonbreak moment eligibility
 python scripts/dragonbreak_cue.py
 
-# Validate repository for banned terms
-python scripts/custom_scan.py
-
 # Validate campaign state files
 python scripts/validate_state.py
 
-# Set up convenient bash aliases
-bash scripts/setup_aliases.sh
+# Check campaign alignment with module
+python scripts/on_track.py
+
+# Run full vault audit and integrity check
+bash scripts/audit_vault.sh
+```
+
+### GM Toolkit Documents
+```
+Essential (Read First):
+- tools/GM_QUICK_START.md — Complete session prep workflow
+- tools/MASTER_INDEX.md — Navigation hub for entire repository
+- tools/CONTEXT_BUILDER.md — ChatGPT integration guide
+- tools/CHATGPT_PROMPTS.md — All prompt templates
+
+Reference (Use During Play):
+- tools/GM_CHEAT_SHEETS.md — Quick rules and situation reference
+- tools/ENCOUNTER_TABLES.md — Enemy stat blocks by Hold
+- tools/LOOT_SYSTEM.md — Aspect-based rewards system
 ```
 
 ---
