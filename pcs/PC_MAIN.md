@@ -69,7 +69,7 @@ Baseline permission/fictional affliction with the following boons & beguilments:
 - **Mist Form**
 - **Vampiric Mist Form**
 - **Blood-Crowned Predator (passive)**
-- **Vampire Lord Seed (Monstrous Reserve):** Permanently add **+1 Physical stress box** and **+1 Mental stress box**.
+- **Vampire Lord Seed (Boon):** Permanently add **+1 Physical stress box** and **+1 Mental stress box**. Triggered by feeding on Ondolemar and binding his soul into the Mace.
 
 ### Extra (Cost 1 Refresh): Brevet Praefect of the Imperial Legion
 **Aspect/Permission:** Brevet Praefect of the Imperial Legion
@@ -172,7 +172,7 @@ Feeding on a notable target can quiet Hunger Rising for the scene and either:
 - **#4 — Major feed: Ondolemar (Thalmor Justiciar):** the asset label **"RIVENSPIRE ROI"**, Elenwen's embassy authority wax referenced, and the handler name **Calion** tied to a "mnemonic cauterization protocol" (memory-cut).
 
 **Most Recent Sanguinar Milestone:**
-- **SANGUINAR_APEX_02 — Vampire Lord Seed (Monstrous Reserve):** Claimed on max Blood Potency + Blood Revelation (Reach Ridgeline Killbox / Ondolemar). Grants **+1 Physical stress box** and **+1 Mental stress box**. Clocks reset to **0/6**.
+- **SANGUINAR_APEX_02 — Vampire Lord Seed (Boon):** Claimed after feeding on Ondolemar and binding his soul into the Mace; clocks reset. Grants **+1 Physical stress box** and **+1 Mental stress box**.
 
 ### Expanded Backstory (Canon)
 The following details are now established canon for Agran Moorcroft:
