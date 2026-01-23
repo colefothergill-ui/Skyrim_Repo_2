@@ -35,11 +35,27 @@
       "Bal Knows Your Ambition"
     ],
     "skills_or_approaches": {
-      "superb_5": ["Fight"],
-      "great_4": ["Rapport"],
-      "good_3": ["Craft"],
-      "fair_2": ["Physique", "Will", "Provoke"],
-      "average_1": ["Deceit", "Athletics", "Contacts", "Empathy", "Lore"]
+      "superb_5": [
+        "Fight"
+      ],
+      "great_4": [
+        "Rapport"
+      ],
+      "good_3": [
+        "Craft"
+      ],
+      "fair_2": [
+        "Physique",
+        "Will",
+        "Provoke"
+      ],
+      "average_1": [
+        "Deceit",
+        "Athletics",
+        "Contacts",
+        "Empathy",
+        "Lore"
+      ]
     },
     "stunt_1": "Rallying Cry: Once per scene he may Create Advantage, and gain a +2 to his Rapport 4dF rolls to inspire Imperial Soldier's to push back against their adversaries, and create a Scene Aspect 'Rallied' (2 free invokes for himself or his fellow soldiers). On SWS his allies gain an additional +2 to their first Fight 4dF this Scene.",
     "stunt_2": "Bard's College Alumni: When playing his War Drum, or Lute, he receives a +2 on Craft 4dF rolls, or a +2 to Rapport Rolls made when singing.",
@@ -56,7 +72,7 @@
       "Mist Form",
       "Vampiric Mist Form",
       "Blood-Crowned Predator (passive)",
-      "Vampire Lord Seed (Monstrous Reserve)"
+      "Vampire Lord Seed (Boon)"
     ],
     "vampire_milestones": [
       {
@@ -66,8 +82,8 @@
       },
       {
         "id": "SANGUINAR_APEX_02",
-        "reward": "Vampire Lord Seed (Monstrous Reserve)",
-        "note": "Claimed on max blood potency + blood revelation (Reach Ridgeline Killbox / Ondolemar). Grants +1 physical stress box and +1 mental stress box permanently."
+        "reward": "Vampire Lord Seed (Boon)",
+        "note": "Claimed after feeding on Ondolemar and binding his soul into the Mace; clocks reset."
       }
     ],
     "extras": [
@@ -89,13 +105,20 @@
       {
         "name": "Mace of Molag Bal (Artifact Extra)",
         "cost_refresh": 0,
-        "aspects": ["Mace of Molag Bal — Hunger in Iron", "Control Feels Easy"],
+        "aspects": [
+          "Mace of Molag Bal — Hunger in Iron",
+          "Control Feels Easy"
+        ],
         "stunts": [
           "Shaken Will (repo canon): Once per session, when you win a social conflict by intimidation, you may also inflict a mild consequence 'Shaken Will' (fictional follow-through required).",
           "Draining Blow: Once per scene, on a hit with Fight using the Mace, either place 'Sapped (Stamina/Magicka Drained)' with 1 free invoke (2 on SWS), OR clear one stress box and gain 'Taste of Power' (GM gets 1 free invoke).",
           "Soul Snare: When you Take Out someone with the Mace, declare 'Soul Bound' for the scene and gain Boost 'Captured Essence' (+2 once on soul/undead/warding/daedra-related Lore/Will/Provoke)."
         ],
-        "gm_compels": ["Control Feels Easy", "The Weak Are Tools", "Chains You Can't See"]
+        "gm_compels": [
+          "Control Feels Easy",
+          "The Weak Are Tools",
+          "Chains You Can't See"
+        ]
       }
     ],
     "relationships": [
@@ -125,7 +148,9 @@
       }
     ],
     "stress": {
-      "physical_marked": [2],
+      "physical_marked": [
+        2
+      ],
       "mental_marked": []
     },
     "clocks": {

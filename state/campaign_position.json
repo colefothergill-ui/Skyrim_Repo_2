@@ -1,8 +1,8 @@
 {
   "current_act": 2,
-  "current_scene_id": "S16_REACH_RIDGELINE_KILLBOX",
+  "current_scene_id": "S17_CITRUS_RECKONING_AFTERMATH",
   "current_hold": "The Reach",
-  "current_location": "The Reach — crag ridgelines above Markarth (ambush ground; Killbox in the Crags)",
+  "current_location": "The Reach — Ridgeline killbox aftermath (Ondolemar down; Forsworn withdrawing)",
   "start_point": "ACT_01_BATTLE_OF_WHITERUN",
   "module_anchor": {
     "module_id": "ACT_02_SPREADING_FLAMES",
@@ -13,7 +13,7 @@
     "unknown_witness_cell",
     "molag_bal"
   ],
-  "last_log": "2026-01-20_session-05_MARKARTH_DROP_BLOOD_AND_PAPER.md",
+  "last_log": "logs/2026-01-23_session-06_CITRUS_RECKONING_RAGS_AND_WOLVES.md",
   "on_track": {
     "status": "ok",
     "last_checked": "2026-01-19",
