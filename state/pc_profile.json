@@ -55,13 +55,19 @@
     "sanguinar_upgrades": [
       "Mist Form",
       "Vampiric Mist Form",
-      "Blood-Crowned Predator (passive)"
+      "Blood-Crowned Predator (passive)",
+      "Vampire Lord Seed (Monstrous Reserve)"
     ],
     "vampire_milestones": [
       {
         "id": "SANGUINAR_APEX_01",
         "reward": "Vampiric Mist Form",
         "note": "Claimed on max blood potency + blood revelation."
+      },
+      {
+        "id": "SANGUINAR_APEX_02",
+        "reward": "Vampire Lord Seed (Monstrous Reserve)",
+        "note": "Claimed on max blood potency + blood revelation (Reach Ridgeline Killbox / Ondolemar). Grants +1 physical stress box and +1 mental stress box permanently."
       }
     ],
     "extras": [
@@ -147,6 +153,11 @@
         "id": 3,
         "trigger": "Major feed: Crescent Witness field leader",
         "clue": "Ink-sting on the tongue; a whistle cord; the words 'SUBJECT CONFIRMED' and 'REPORT TO: MARKARTH DROP' signed only '—THE WITNESS'. A flash of a door that shouldn't be there, and a low voice: 'Bring him to stone.'"
+      },
+      {
+        "id": 4,
+        "trigger": "Major feed: Ondolemar (Thalmor Justiciar)",
+        "clue": "Asset label 'RIVENSPIRE ROI'. Embassy authority wax referenced (Elenwen). Handler name 'Calion' tied to a 'mnemonic cauterization protocol' (memory-cut)."
       }
     ]
   }

@@ -6,8 +6,9 @@
 - **High Concept:** The Bloody Bard Quester of Solitude.
 - **Trouble:** The Secret of my Sanguine.
 - **Other Aspect 1:** Bard's College Graduate & Honorable Imperial Soldier.
-- **Other Aspect 2:** Sybille Stentor Is the Only One Who Knows.
+- **Other Aspect 2:** The Wolf of Solitude — Slayer of Galmar.
 - **Other Aspect 3:** Hadvar's Shield-Brother in Song and Steel.
+- **Other Aspect 4:** Bal Knows Your Ambition
 
 ## Affiliation (Session Zero Gate)
 - **Primary:** imperials
@@ -18,8 +19,9 @@
 Agran Moorcroft looks like a court ball decided to grow fangs: shoulder-length crimson hair, golden predatory eyes, red-and-gold bardic armor with an Imperial dragon motif, lute/war-drum performer's poise, soldier's presence, and a smile that's charming until it isn't.
 
 ## Skills / Approaches
-- **+4:** Fight
-- **+3:** Rapport, Craft
+- **+5:** Fight
+- **+4:** Rapport
+- **+3:** Craft
 - **+2:** Physique, Will, Provoke
 - **+1:** Deceit, Athletics, Contacts, Empathy, Lore
 
@@ -32,6 +34,13 @@ Agran Moorcroft looks like a court ball decided to grow fangs: shoulder-length c
 
 3) **College of Swords:**
    When fighting against only one opponent, he receives +2 to Defense Rolls he makes with Fight. On SWS he may forgo the Boost to Create Advantage, and attempt to impose a Scene Aspect on his opposition 'Disarmed', 'Feinting blow', 'Fancy Foot Work'.
+
+
+4) **Mist Form:**
+   Once per scene, Agran may become mist to slip through cracks or evade capture; gain **+1** to an Athletics or Will Overcome/Defend roll when repositioning/escaping as mist.
+
+5) **Vampiric Mist Form (upgrade):**
+   Once per scene, you may become mist to escape/reposition; use Athletics or Will to Overcome/Defend with **+2**, or Create Advantage **"Mist-Shrouded"** (1 free invoke) on success.
 
 ## Extras
 ### Race: Breton
@@ -55,6 +64,13 @@ Baseline permission/fictional affliction with the following boons & beguilments:
 - **Vampire Seduction (1/scene):** On successful Create Advantage with Rapport or Deceit to charm/entice, gain +1 extra free invoke on that advantage.
 - **Fire Vulnerability (always):** Against fire attacks or fire-zone hazards, apply +2 against Agran OR grant a free invoke to the GM on a relevant fire aspect (choose whichever fits, not both).
 
+
+**Sanguinar Upgrades (claimed):**
+- **Mist Form**
+- **Vampiric Mist Form**
+- **Blood-Crowned Predator (passive)**
+- **Vampire Lord Seed (Monstrous Reserve):** Permanently add **+1 Physical stress box** and **+1 Mental stress box**.
+
 ### Extra (Cost 1 Refresh): Brevet Praefect of the Imperial Legion
 **Aspect/Permission:** Brevet Praefect of the Imperial Legion
 
@@ -72,10 +88,11 @@ On a Success with Style, choose ONE additional payoff (instead of the usual boos
 - Imperial Soldier's Uniform (Leather)
 - Dueling blade (standard weapon)
 - Lute
+- Mace of Molag Bal (wrapped; Imperial custody)
 
 ## Stress & Consequences (if using)
-- Physical Stress: [ ] [ ] [ ]
-- Mental Stress: [ ] [ ] [ ]
+- Physical Stress: [ ] [ ] [ ] [ ]
+- Mental Stress: [ ] [ ] [ ] [ ]
 - Consequences:
   - Mild (2):
   - Moderate (4):
@@ -134,26 +151,28 @@ This mystery is a core campaign thread. Important feeds (on powerful or signific
 Agran's vampiric power grows through significant feeding, tracked via a progression clock tied to his bloodline mystery.
 
 **Progression Clock:**
-- **Blood Potency / Blood Revelation:** 2/6 (current state)
+- **Blood Potency / Blood Revelation:** 0/6 (current state)
 - **Minor feed** (named but not major NPC): +1 tick
 - **Major feed** (important named NPC, faction leader, etc.): +2 ticks
 
 **At 6/6 (Full Clock):**
-- Unlock a **Sanguinar Upgrade:** either a new stunt OR a permanent boon (upgrade to existing vampire abilities, extra 1/scene use, reduced drawback, etc.)
+- Unlock a **Sanguinar Upgrade** (new stunt OR permanent boon)
 - Gain a **MAJOR sire clue** — a "Blood Echo / Revelation" that advances the bloodline mystery
+- **Then reset both clocks to 0/6** after the upgrade is claimed (next rank begins)
 
-**Immediate Scene Payoff:**
-Feeding on a notable target can **quiet Hunger Rising for the scene** and either:
+**Immediate Scene Payoff (optional, fiction-first):**
+Feeding on a notable target can quiet Hunger Rising for the scene and either:
 - Grant a Boost: "Sated Predator"
 - OR clear a stress box (player's choice per scene)
 
-**Current Progress:**
-- **Blood Potency/Revelation: 2/6**
-- **Source:** Major feed on Galmar Stone-Fist (+2 ticks)
-- **Blood Echo #1:**
-  - Sensory flash: a candlelit hall (dark wood, colder stone)
-  - A signet ring motif: "a crescent over a tower" (or tower piercing crescent)
-  - A voice line: *"Good. Let them watch you win."*
+**Blood Echoes (canon):**
+- **#1 — Major feed: Galmar Stone-Fist:** candlelit hall; signet ring (crescent over tower); voice: *"Good. Let them watch you win."*
+- **#2 — Major feed: Seal-tamper operative:** Orders fragment: "DELAY COURIER. TEST SEAL." Phrase overheard: "The Witness". Crescent-over-tower symbol copied on dispatch slip.
+- **#3 — Major feed: Crescent Witness field leader:** ink-sting on the tongue; a whistle cord; the words "SUBJECT CONFIRMED" and "REPORT TO: MARKARTH DROP" signed only "—THE WITNESS". A flash of a door that shouldn't be there, and a low voice: "Bring him to stone."
+- **#4 — Major feed: Ondolemar (Thalmor Justiciar):** the asset label **"RIVENSPIRE ROI"**, Elenwen's embassy authority wax referenced, and the handler name **Calion** tied to a "mnemonic cauterization protocol" (memory-cut).
+
+**Most Recent Sanguinar Milestone:**
+- **SANGUINAR_APEX_02 — Vampire Lord Seed (Monstrous Reserve):** Claimed on max Blood Potency + Blood Revelation (Reach Ridgeline Killbox / Ondolemar). Grants **+1 Physical stress box** and **+1 Mental stress box**. Clocks reset to **0/6**.
 
 ### Expanded Backstory (Canon)
 The following details are now established canon for Agran Moorcroft:
